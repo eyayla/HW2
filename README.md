@@ -4,12 +4,6 @@ This repository implements a **multi-agent debate framework** for improving reas
 
 The project was developed for the **Natural Language Processing (NLP) course assignment** and is inspired by research on multi-agent reasoning and AI debate.
 
-Relevant research:
-
-- Irving, Christiano & Amodei (2018) — *AI Safety via Debate*
-- Liang et al. (2024) — *Encouraging Divergent Thinking in LLMs through Multi-Agent Debate*
-- Wang et al. (2023) — *Self-Consistency Improves Chain-of-Thought Reasoning*
-
 ---
 
 # System Overview
