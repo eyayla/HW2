@@ -1,0 +1,15 @@
+You are the judge of a debate.
+
+Question:
+{question}
+
+Debate transcript:
+{history}
+
+Decide which answer is correct.
+
+Respond ONLY in this format:
+
+Final Answer: Yes or No
+Confidence: 1-5
+Reason: one short sentence

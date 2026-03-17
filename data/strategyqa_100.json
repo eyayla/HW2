@@ -1,0 +1,6610 @@
+[
+  {
+    "qid": "a1be20a22026cc661660",
+    "term": "Drew Carey",
+    "description": "American actor, comedian, game show host, libertarian and photographer",
+    "question": "Is Drew Carey important to the history of wrestling?",
+    "answer": true,
+    "facts": [
+      "Drew Carey competed in the 2001 Royal Rumble.",
+      "The Royal Rumble is one of the Big 4 yearly WWE pay per view events.",
+      "Drew Carey was inducted into the WWE Hall of Fame in 2011."
+    ],
+    "decomposition": [
+      "What competition did Drew Carey compete in in 2001?",
+      "Is #1 an important even for the WWE?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Drew Carey-2"
+          ]
+        ],
+        [
+          [
+            "Royal Rumble-2"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Royal Rumble (2001)-2"
+          ]
+        ],
+        [
+          [
+            "Royal Rumble-2"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Drew Carey-18"
+          ]
+        ],
+        [
+          [
+            "Royal Rumble-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "e3481f169664aa561368",
+    "term": "Louvre",
+    "description": "Art museum and Historic site in Paris, France",
+    "question": "Is the Louvre in billionaire George Soros's price range?",
+    "answer": false,
+    "facts": [
+      "The Louvre including all of its paintings has a value of around 45 billion.",
+      "George Soros has a net worth around 8 billion as of 2020."
+    ],
+    "decomposition": [
+      "What is the estimated value of the Louvre?",
+      "What is George Soros' estimated 2020 net worth?",
+      "Is #2 greater than or equal to #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Louvre-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "George Soros-1"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Louvre-16"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "George Soros-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "George Soros-113"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "6a01b523e0140f21c426",
+    "term": "Mediterranean Sea",
+    "description": "Sea connected to the Atlantic Ocean between Europe, Africa and Asia",
+    "question": "Did a Mediterranean Sea creature kill Steve Irwin?",
+    "answer": true,
+    "facts": [
+      "Steve Irwin was killed by a Stingray animal.",
+      "Batoids are sea ray animals that live in the Mediterranean Sea.",
+      "Batoids and stingrays are related by sharing a scientific class of Chondrichthyes."
+    ],
+    "decomposition": [
+      "Which animal killed Steve Irwin?",
+      "Is #1 a sea creature"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Steve Irwin-35"
+          ]
+        ],
+        [
+          [
+            "Stingray-2"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Steve Irwin-35"
+          ]
+        ],
+        [
+          [
+            "Broad stingray-4",
+            "Great Barrier Reef-7"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Steve Irwin-35"
+          ]
+        ],
+        [
+          [
+            "Stingray-1"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a9238d2bba6ea325fb41",
+    "term": "Cactus",
+    "description": "Family of mostly succulent plants, adapted to dry environments",
+    "question": " Is cactus fruit an important menu item for a restaurant based on Cuauhtémoc?",
+    "answer": true,
+    "facts": [
+      "The Aztecs cultivated cacti for the fruit",
+      "Tenochtitlan was the capital of the Aztec empire",
+      "Cuauhtémoc was the last king of Tenochtitlan "
+    ],
+    "decomposition": [
+      "Where city was Cuauhtémoc the king of?",
+      "What empire was #1 the capital of?",
+      "Did people in #2 eat cacti?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Cuauhtémoc-1"
+          ]
+        ],
+        [
+          [
+            "Tenochtitlan-1"
+          ]
+        ],
+        [
+          [
+            "Aztec Empire-8"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Cuauhtémoc-1"
+          ]
+        ],
+        [
+          [
+            "Tenochtitlan-1"
+          ]
+        ],
+        [
+          [
+            "Cactus-61"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Cuauhtémoc-1"
+          ]
+        ],
+        [
+          [
+            "Cuauhtémoc-1"
+          ]
+        ],
+        [
+          [
+            "Aztec cuisine-4"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "0a8bb20dbdb99d68127e",
+    "term": "Clove",
+    "description": "species of plant",
+    "question": "Do people who smoke Djarum's like cloves?",
+    "answer": true,
+    "facts": [
+      "Djarum is a brand of cigarette popular around the world.",
+      "Djarum cigarettes are made with a blend of cloves and tobacco."
+    ],
+    "decomposition": [
+      "What are Djarum cigarettes made of?",
+      "Does #1 include cloves?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Djarum-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Djarum-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Djarum-1",
+            "Kretek-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "16338eaba71f146a0c40",
+    "term": "Central processing unit",
+    "description": "Central component of any computer system which executes input/output, arithmetical, and logical operations",
+    "question": "Does the central processing unit usually have a dedicated fan?",
+    "answer": true,
+    "facts": [
+      "The CPU is the main chip on a computer's board, and generates a lot of heat.",
+      "Computer manufacturers generally include a dedicated cooling system over the CPU in addition to the main board fans."
+    ],
+    "decomposition": [
+      "What do CPUs generate as they work over time?",
+      "Do manufacturers incorporate fans specifically for removing #1 into computer systems?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Central processing unit-53"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "CPU core voltage-14"
+          ]
+        ],
+        [
+          [
+            "Computer fan-7"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Central processing unit-46"
+          ]
+        ],
+        [
+          [
+            "Computer cooling-15"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "b24d019c3f205bafdea5",
+    "term": "Euphoria",
+    "description": "mental and emotional condition in which a person experiences intense feelings of well-being, elation, happiness and excitement",
+    "question": "Did Rumi spend his time in a state of euphoria?",
+    "answer": true,
+    "facts": [
+      "Euphoria is a state in which people experience intense feelings that overwhelm their body.",
+      "Rumi was a 13th century Persian poet that was also a dervish.",
+      "Dervishes participated in ceremonies in which they experienced religious ecstasy.",
+      "Religious ecstasy is an altered state of consciousness characterized by visions and emotional (and sometimes physical) euphoria."
+    ],
+    "decomposition": [
+      "What religious practices did Rumi engage in?",
+      "What emotional experiences are associated with #1?",
+      "Is euphoria among #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Rumi-1",
+            "Sufi whirling-1"
+          ]
+        ],
+        [
+          [
+            "Sufi whirling-5"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rumi-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rumi-1"
+          ]
+        ],
+        [
+          [
+            "Sufism-75"
+          ]
+        ],
+        [
+          [
+            "Ecstasy (emotion)-8"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a969716a48788439f917",
+    "term": "HIV",
+    "description": "Human retrovirus, cause of AIDS",
+    "question": "Would fans of Jonathan Larson be unaware of HIV?",
+    "answer": false,
+    "facts": [
+      "Jonathan Larson died of AIDS in 1996.",
+      "Jonathan Larson produced music and plays about HIV, AIDS, and poverty."
+    ],
+    "decomposition": [
+      "What works did Jonathan Larson produce?",
+      "Do all of #1 avoid the topic of HIV?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Jonathan Larson-1"
+          ]
+        ],
+        [
+          [
+            "Tick, Tick... Boom!-12"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Jonathan Larson-1"
+          ]
+        ],
+        [
+          [
+            "Rent (musical)-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Jonathan Larson-1"
+          ]
+        ],
+        [
+          [
+            "Rent (musical)-1"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "ed08e2d4bbe5bbf1b01d",
+    "term": "Oprah Winfrey",
+    "description": "American businesswoman, talk show host, actress, producer, and philanthropist",
+    "question": "Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?",
+    "answer": true,
+    "facts": [
+      "Oprah Winfrey is a billionaire",
+      "A new Bugatti costs a few million dollars"
+    ],
+    "decomposition": [
+      "How much is Oprah Winfrey worth?",
+      "How much does a  Bugatti cost?",
+      "Is #2 times 2 dozen less than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Oprah Winfrey-54"
+          ]
+        ],
+        [
+          [
+            "Bugatti Chiron-8"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Oprah Winfrey-54"
+          ]
+        ],
+        [
+          [
+            "Bugatti Chiron-8"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Oprah Winfrey-54"
+          ]
+        ],
+        [
+          [
+            "Bugatti Chiron-8"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "92375474ecfe1fe8b2be",
+    "term": "Tibia",
+    "description": "larger of the two bones of the leg below the knee for vertebrates",
+    "question": "Would you find a tibia beside parsley on a holiday plate?",
+    "answer": true,
+    "facts": [
+      "The tibia of a goat is eaten during Passover, a Jewish holiday",
+      "Parsley is served on a Passover seder plate beside the goat shank "
+    ],
+    "decomposition": [
+      "How is Passover celebrated?",
+      "What part of a goat is eaten during #1?",
+      "Is parsley typically served on the same plate as #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Passover-13",
+            "Passover-7"
+          ]
+        ],
+        [
+          [
+            "Tibia-1",
+            "Zeroa-1"
+          ]
+        ],
+        [
+          [
+            "Passover Seder plate-4"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Passover-22"
+          ]
+        ],
+        [
+          [
+            "Passover-23"
+          ]
+        ],
+        [
+          [
+            "Parsley-15"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Passover-13"
+          ]
+        ],
+        [
+          [
+            "Passover-87"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Parsley-16"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "05ab64dd540d095d9c62",
+    "term": "Mood disorder",
+    "description": "(psychology) Any of various disorders characterised by disturbance in an individual's mood",
+    "question": "Do people with mood disorders need permanent institutionalization?",
+    "answer": false,
+    "facts": [
+      "Most mood disorders can be treated in the outpatient setting.",
+      "Many people with mood disorders do not get diagnosed at all."
+    ],
+    "decomposition": [
+      "Do most mood disorders need the patient to leave their homes to get treatment?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Mood disorder-21"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Mood disorder-21"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Bipolar disorder-44",
+            "Mood (psychology)-17"
+          ],
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "73627f72e83c519d8a0e",
+    "term": "Astrology",
+    "description": "Pseudoscience claiming celestial objects influence human affairs",
+    "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+    "answer": false,
+    "facts": [
+      "The Capricorn astrology symbol is a sea goat which consists of: a goat, and a fish.",
+      "A chimera is a legendary beast that is made up of: a lion, a goat, and a snake."
+    ],
+    "decomposition": [
+      "What are the parts of the capricorn symbol?",
+      "What is the chimera made up of?",
+      "Does #1 include all of #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Capricorn (astrology)-1"
+          ]
+        ],
+        [
+          [
+            "Chimera (mythology)-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Capricorn (astrology)-2"
+          ]
+        ],
+        [
+          [
+            "Chimera (mythology)-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Capricorn (astrology)-2"
+          ]
+        ],
+        [
+          [
+            "Chimera (mythology)-3"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "55c54e04a9446aaf6b45",
+    "term": "Chocolate brownie",
+    "description": "A square, baked, chocolate dessert",
+    "question": "Should children be kept from \"special brownies\"?",
+    "answer": true,
+    "facts": [
+      "\"Special brownies\" typically refer to brownies that have been laced with THC.",
+      "THC is an active component of cannabis, a drug meant for adults only."
+    ],
+    "decomposition": [
+      "What are \"special brownies\" made from that makes them special?",
+      "Who is #1 made specifically for?",
+      "Are children allowed to have things meant for #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Cannabis edible-1"
+          ]
+        ],
+        [
+          [
+            "Cannabis edible-2"
+          ]
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Cannabis edible-11"
+          ]
+        ],
+        [
+          [
+            "Cannabis edible-2"
+          ]
+        ],
+        [
+          [
+            "Cannabis edible-7"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Cannabis edible-6"
+          ]
+        ],
+        [
+          [
+            "Medical cannabis-30"
+          ]
+        ],
+        [
+          [
+            "Medical cannabis-30"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "de62d38623fde2c2285a",
+    "term": "Week",
+    "description": "unit of time",
+    "question": "Would a week be enough time to watch every episode of Ugly Betty?",
+    "answer": true,
+    "facts": [
+      "There are 168 hours in a week.",
+      "The entire Ugly Betty series is 85 hours long."
+    ],
+    "decomposition": [
+      "How many hours are in a week?",
+      "How long is the entire Ugly Betty series?",
+      "Is #1 greater than or equal to #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Week-9"
+          ]
+        ],
+        [
+          [
+            "Ugly Betty-10"
+          ]
+        ],
+        [
+          [
+            "Ugly Betty-10"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Ugly Betty-16"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Week-9"
+          ],
+          "operation"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "e12a00a2c45fcb4f38e7",
+    "term": "Othello",
+    "description": "play by Shakespeare",
+    "question": "Would Othello be Shakespeare's play to buy Scheherazade most time with king?",
+    "answer": false,
+    "facts": [
+      "Scheherazade was a character in Middle Eastern folklore that delayed her execution by telling the king long stories.",
+      "Shakespeare's play Othello contained 26,450 words.",
+      "Hamlet is Shakespeare's longest play consisting of 4000 lines and 30,000 words."
+    ],
+    "decomposition": [
+      "How long is Othello?",
+      "Are all of Shakespeare's other plays shorter than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Othello-41"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Shakespeare's plays-1"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Othello-20"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Hamlet-2",
+            "The Comedy of Errors-1"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Othello-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "44c59a3ac10f2921a009",
+    "term": "Rick and Morty",
+    "description": "Animated sitcom",
+    "question": "Is Rick and Morty considered an anime?",
+    "answer": false,
+    "facts": [
+      "Anime is a genre of animation that is hand drawn and is of Japanese origin.",
+      "Rick and Morty is an American animated show."
+    ],
+    "decomposition": [
+      "What country does anime come from?",
+      "Rick and Morty is an animated show from which country?",
+      "Do #1 and #2 have the same answer?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Anime-1"
+          ]
+        ],
+        [
+          [
+            "Rick and Morty-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Anime-1"
+          ]
+        ],
+        [
+          [
+            "Rick and Morty-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Anime-10"
+          ]
+        ],
+        [
+          [
+            "Rick and Morty-18"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "1a65b1ecd37a63767bf7",
+    "term": "Persian Gulf",
+    "description": "An arm of the Indian Ocean in western Asia",
+    "question": "Can the Persian Gulf fit in New Jersey?",
+    "answer": false,
+    "facts": [
+      "The Persian Gulf has an area of 96,912 square miles.",
+      "New Jersey has a land area of 7,417 square miles."
+    ],
+    "decomposition": [
+      "How much area does the Persian Gulf cover?",
+      "How much area does New Jersey cover?",
+      "Is #2 greater than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Persian Gulf-6"
+          ]
+        ],
+        [
+          [
+            "New Jersey-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Persian Gulf-6"
+          ]
+        ],
+        [
+          [
+            "New Jersey-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Persian Gulf-6"
+          ]
+        ],
+        [
+          [
+            "New Jersey-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "4f286910705ee9e8aceb",
+    "term": "Hypothermia",
+    "description": "A human body core temperature below 35.0°C",
+    "question": "Would hypothermia be a concern for a human wearing zoot suit on Triton?",
+    "answer": true,
+    "facts": [
+      "A zoot suit was a man's suit of an exaggerated style popular in the 1940s.",
+      "Triton is one of the coldest planets in the solar system.",
+      "Triton is located about 2.8 billion miles from the warmth of the sun.",
+      "Triton has an average temperature of -235.0°C",
+      "A zoot suit is made of thin material such as cloth."
+    ],
+    "decomposition": [
+      "What is the average temperature on Triton?",
+      "What material are zoot suits made of?",
+      "Below which body temperature will hypothermia set in?",
+      "Would clothes made of #2 be unable to keep body temperature above #3 in ambient temperature of #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Triton (moon)-3"
+          ]
+        ],
+        [
+          [
+            "Zoot Suit Riots-2"
+          ]
+        ],
+        [
+          [
+            "Hypothermia-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Triton (moon)-3"
+          ]
+        ],
+        [
+          [
+            "Zoot Suit Riots-12",
+            "Zoot Suit Riots-2"
+          ]
+        ],
+        [
+          [
+            "Human body temperature-30"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Triton (moon)-3"
+          ]
+        ],
+        [
+          [
+            "Zoot suit-15"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Hypothermia-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "b76f30e808b1bfdbee2b",
+    "term": "John Lennon",
+    "description": "English singer and songwriter, founding member of the Beatles",
+    "question": "Did Cynthia Powell celebrate a silver anniversary with John Lennon?",
+    "answer": false,
+    "facts": [
+      "A silver anniversary takes place during the 25th year of marriage.",
+      "Cynthia Powell married John Lennon in 1962.",
+      "Cynthia Powell and John Lennon got divorced in 1968."
+    ],
+    "decomposition": [
+      "People have to be married for how many years for them to celebrate a silver anniversary?",
+      "When did Cynthia Powell marry John Lennon?",
+      "When Cynthia Powell divorce John Lennon?",
+      "What is #3 minus #2?",
+      "Is #4 greater than or equal to #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Silver jubilee-1"
+          ]
+        ],
+        [
+          [
+            "Cynthia Lennon-12"
+          ]
+        ],
+        [
+          [
+            "Cynthia Lennon-31"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Silver jubilee-1"
+          ]
+        ],
+        [
+          [
+            "Cynthia Lennon-12"
+          ]
+        ],
+        [
+          [
+            "Cynthia Lennon-31"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Silver jubilee-1"
+          ]
+        ],
+        [
+          [
+            "Cynthia Lennon-12"
+          ]
+        ],
+        [
+          [
+            "John Lennon-41"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "c096042cd5db3c7ed663",
+    "term": "Dodo",
+    "description": "Extinct large flightless pigeon from Mauritius",
+    "question": "Would a Dodo hypothetically tower over Ma Petite?",
+    "answer": true,
+    "facts": [
+      "A Dodo was an extinct bird that was over 3 feet tall.",
+      "Ma Petite was a character on American Horror Story played by Jyoti Amge.",
+      "Jyoti Amge is around 2 feet tall."
+    ],
+    "decomposition": [
+      "How tall were dodos?",
+      "Who played the role of Ma Petite?",
+      "How tall is #2?",
+      "Is #1 greater than #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Dodo-2"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-1"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Dodo-2"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-3"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Dodo-2"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-3"
+          ]
+        ],
+        [
+          [
+            "Jyoti Amge-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "bac94f0b8587bf0e8f5e",
+    "term": "Cauliflower",
+    "description": "cauliflower plants (for the vegetable see Q23900272)",
+    "question": "Would a cauliflower farmer prosper at a latitude of 75° N?",
+    "answer": false,
+    "facts": [
+      "Cauliflower grows best between temperatures of 70 to 85 degrees",
+      "The latitude of 75° N is in the Arctic"
+    ],
+    "decomposition": [
+      "What country is at the latitude of 75° N?",
+      "What is the average temperature of #1?",
+      "What is the best temperature to grow cauliflower?",
+      "Is there any overlap between #2 and #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "75th parallel north-1"
+          ]
+        ],
+        [
+          [
+            "Antarctica-42"
+          ]
+        ],
+        [
+          [
+            "Cauliflower-6"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "75th parallel north-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "New Siberian Islands-16"
+          ]
+        ],
+        [
+          [
+            "Cauliflower-6"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "75th parallel north-1",
+            "75th parallel north-2"
+          ]
+        ],
+        [
+          [
+            "Arctic-5"
+          ]
+        ],
+        [
+          [
+            "Cauliflower-6"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "7cb3bf5c1283aad54afa",
+    "term": "Iyer",
+    "description": "caste of Hindu Brahmin communities of Tamil origin",
+    "question": "Do people of the Iyer caste eat meat?",
+    "answer": false,
+    "facts": [
+      "Iyer is a caste of Hindu Brahmin.",
+      "Brahmin is the priest caste of Hinduism.",
+      "Devout Hindus do not eat meat. ",
+      "Priests of a religion are devout followers of that religion."
+    ],
+    "decomposition": [
+      "What caste is Iyer part of?",
+      "What larger caste is #1 part of?",
+      "Do people who follow #2 eat meat?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Iyer-11"
+          ]
+        ],
+        [
+          [
+            "Brahmin (disambiguation)-1"
+          ]
+        ],
+        [
+          [
+            "Brahmin-15"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Iyer-35"
+          ]
+        ],
+        [
+          [
+            "Brahmin-1",
+            "History of Brahmin diet-7",
+            "Tamil Brahmin-1"
+          ]
+        ],
+        [
+          [
+            "History of Brahmin diet-7"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Iyer-1"
+          ]
+        ],
+        [
+          [
+            "Brahmin-1"
+          ]
+        ],
+        [
+          [
+            "Brahmin-15"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "43302ebc930b722c112b",
+    "term": "Osama bin Laden",
+    "description": "Co-founder of al-Qaeda",
+    "question": "Does Osama bin Laden put a wafer on his tongue every Sunday?",
+    "answer": false,
+    "facts": [
+      "Osama bin Laden was an Islamic fundamentalist",
+      "The practice of putting a wafer on your tongue is called Communion",
+      "Communion is a Christian religious practice",
+      "Christians commonly attend religious services on Sunday"
+    ],
+    "decomposition": [
+      "What is the practice of putting a wafer on your tongue called?",
+      "What religion practices #1 on Sundays?",
+      "Does Osama bin Laden practice #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Eucharist-1"
+          ]
+        ],
+        [
+          [
+            "Christianity-37"
+          ]
+        ],
+        [
+          [
+            "Osama bin Laden-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Eucharist-65"
+          ]
+        ],
+        [
+          [
+            "Eucharist-1"
+          ]
+        ],
+        [
+          [
+            "Osama bin Laden-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Eucharist-95"
+          ]
+        ],
+        [
+          [
+            "Eucharist-1"
+          ]
+        ],
+        [
+          [
+            "Osama bin Laden-10"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "598be3dcddbd7775a827",
+    "term": "Bob Marley",
+    "description": "Jamaican singer-songwriter",
+    "question": "Could Bob Marley's children hypothetically win tug of war against Kublai Khan's children?",
+    "answer": false,
+    "facts": [
+      "Bob Marley had 9 children.",
+      "Kublai Khan had 23 children.",
+      "Many of Bob Marley's children became singers, and followed his themes of peace and love.",
+      "The children of Kublai Khan followed in his footsteps and were fierce warlords."
+    ],
+    "decomposition": [
+      "How many children did Bob Marley have?",
+      "How many children did Kublai Khan have?",
+      "Is #1 greater than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Bob Marley-42"
+          ]
+        ],
+        [
+          [
+            "Kublai Khan-71",
+            "Toghon (son of Kublai)-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Bob Marley-42"
+          ]
+        ],
+        [
+          [
+            "Kublai Khan-71",
+            "Kublai Khan-76"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Bob Marley-42"
+          ]
+        ],
+        [
+          [
+            "Kublai Khan-76"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "14a891550bef9ab64ef8",
+    "term": "Foot (unit)",
+    "description": "customary unit of length",
+    "question": "When en route from China to France, must pilots know their altitude in the imperial foot?",
+    "answer": true,
+    "facts": [
+      "Most international airports and aviators use the foot to measure altitude ",
+      "China and North Korea require pilots to use meters for altitude",
+      "Pilots must communicate their altitude with local air traffic control "
+    ],
+    "decomposition": [
+      "Which unit of altitude does France require pilots to use?",
+      "Which unit of altitude does China require pilots to use?",
+      "Is #1 or #2 the imperial foot?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Foot (unit)-2"
+          ]
+        ],
+        [
+          [
+            "Foot (unit)-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Foot (unit)-26"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Foot (unit)-3"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Foot (unit)-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Foot (unit)-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "01c27885cede6741bc53",
+    "term": "The CW",
+    "description": "American broadcast television network",
+    "question": "Did Supernatural break 2001 CW debuting shows seasons record?",
+    "answer": true,
+    "facts": [
+      "Smallville debuted on the CW in 2001.",
+      "Smallville had the record of most CW seasons for a show with 10.",
+      "Supernatural concluded its run with its record breaking 15th season on the CW."
+    ],
+    "decomposition": [
+      "What was the debuting shows in a seasons record as of 2001 for CW?",
+      "What was Supernatural's highest debuting shows in a season?",
+      "Is #2 higher than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "The WB-16"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Supernatural (American TV series)-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "The CW-8"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Supernatural (American TV series)-102",
+            "Supernatural (season 1)-20"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "One Tree Hill (TV series)-4"
+          ]
+        ],
+        [
+          [
+            "Supernatural (American TV series)-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "0d147c2a8eb58d38cffa",
+    "term": "Painting",
+    "description": "Practice of applying paint, pigment, color or other medium to a surface",
+    "question": "Is the most recent Democrat President in the US known for his painting practice?",
+    "answer": false,
+    "facts": [
+      "George W. Bush is a former Republican President of the US.",
+      "George W. Bush posts photos of his paintings online.",
+      "Barack Obama succeeded George W. Bush as a Democrat President.",
+      "Barack Obama doesn't post photos of paintings he has made."
+    ],
+    "decomposition": [
+      "Who is the most recent Democrat President in the US?",
+      "Was #1 well known for painting?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Democratic Party (United States)-4"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Barack Obama-65"
+          ]
+        ],
+        [
+          [
+            "Barack Obama-128",
+            "George W. Bush-157"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Barack Obama-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "9b491a31c4212e70b18c",
+    "term": "Jane Austen",
+    "description": "English novelist",
+    "question": "Did Jane Austen suffer from middle child syndrome?",
+    "answer": false,
+    "facts": [
+      "Jane Austen was the second youngest of 8 children.",
+      "Middle child syndrome is the feeling of exclusion by middle children, due directly to their placement in their family's birth order."
+    ],
+    "decomposition": [
+      "What would a child have to be to suffer from middle child syndrome?",
+      "What is Jane Austen's position among her siblings?",
+      "Does being #2 make her #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Middle child syndrome-1"
+          ]
+        ],
+        [
+          [
+            "Jane Austen-7",
+            "Timeline of Jane Austen-4"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Middle child syndrome-1"
+          ]
+        ],
+        [
+          [
+            "Jane Austen-11"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Middle child syndrome-1"
+          ]
+        ],
+        [
+          [
+            "Jane Austen-5",
+            "Jane Austen-7"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "694ac8d334fc4545ee31",
+    "term": "Kurt Cobain",
+    "description": "American singer, composer, and musician",
+    "question": "Did Kurt Cobain's music genre survive after his death?",
+    "answer": true,
+    "facts": [
+      "Kurt Cobain was the lead singer of Nirvana.",
+      "Nirvana's music is classified as Grunge rock.",
+      "Kurt Cobain died on April 5, 1994.",
+      "Some of the major Grunge rock bands included Alice in Chains, Pearl Jam, and Soundgarden.",
+      "Alice in Chains and Pearl Jam released their latest albums in 2018 and 2020 respectively."
+    ],
+    "decomposition": [
+      "What is the musiucal genre associated with both Kurt Cobain and Pearl Jam?",
+      "What year did Kurt Cobain die? ",
+      "Did Pearl Jam release a #1 genre album after #2?",
+      "Is #3 yes?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Grunge-2"
+          ]
+        ],
+        [
+          [
+            "Kurt Cobain-1"
+          ]
+        ],
+        [
+          [
+            "No Code-1"
+          ]
+        ],
+        [
+          [
+            "No Code-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Kurt Cobain-2",
+            "Pearl Jam-2"
+          ]
+        ],
+        [
+          [
+            "Kurt Cobain-55"
+          ]
+        ],
+        [
+          [
+            "Vitalogy-9"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Grunge-2"
+          ]
+        ],
+        [
+          [
+            "Kurt Cobain-1"
+          ]
+        ],
+        [
+          [
+            "Lightning Bolt (Pearl Jam album)-11"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "d2b83ee517ac51dc5dcc",
+    "term": "Naruhito",
+    "description": "Emperor of Japan",
+    "question": "Are Naruhito's ancestors the focus of Romance of the Three Kingdoms?",
+    "answer": false,
+    "facts": [
+      "Naruhito is the Emperor of Japan.",
+      "Romance of the Three Kingdoms was a 14th century historical novel about the Three Kingdoms Period.",
+      "The Three Kingdoms Period was the division of China among the states of Wei, Shu, and Wu."
+    ],
+    "decomposition": [
+      "Where are the ancestors of Naruhito from?",
+      "What country is the novel Romance of the Three Kingdoms set in?",
+      "Are #1 and #2 the same?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Naruhito-3"
+          ]
+        ],
+        [
+          [
+            "Romance of the Three Kingdoms-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Naruhito-1"
+          ]
+        ],
+        [
+          [
+            "Romance of the Three Kingdoms-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Naruhito-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Romance of the Three Kingdoms-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "9d981b77a8466dfe621d",
+    "term": "Indian Ocean",
+    "description": "The ocean between Africa, Asia, Australia and Antarctica (or the Southern Ocean)",
+    "question": "Does the United States of America touch the Indian Ocean?",
+    "answer": false,
+    "facts": [
+      "The United States of America is bordered by the Atlantic and Pacific Oceans.",
+      "Even the westernmost point of the USA, the Hawaiian Islands, is too far east in the Pacific to be anywhere near that ocean's border with the Indian Ocean."
+    ],
+    "decomposition": [
+      "What oceans does the US of America border?",
+      "Is the Indian Ocean part of #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "East Coast of the United States-1",
+            "West Coast of the United States-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Arctic Ocean-2",
+            "Arctic Ocean-3",
+            "Atlantic Ocean-2",
+            "Pacific Ocean-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Borders of the United States-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "03c1714ce4e456d9dfd2",
+    "term": "LinkedIn",
+    "description": "Social networking website for people in professional occupations",
+    "question": "Did Kim Il-sung network on LinkedIn?",
+    "answer": false,
+    "facts": [
+      "LinkedIn was launched in 2003.",
+      "Kim Il-sung died in 1994."
+    ],
+    "decomposition": [
+      "When was LinkedIn launched?",
+      "When did Kim Il-Sung die?",
+      "Did #1 happen before #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "LinkedIn-1"
+          ]
+        ],
+        [
+          [
+            "Kim Il-sung-40"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "LinkedIn-1"
+          ]
+        ],
+        [
+          [
+            "Death and state funeral of Kim Il-sung-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "LinkedIn-1"
+          ]
+        ],
+        [
+          [
+            "Kim Il-sung-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "11f3a3f27f9029362aaf",
+    "term": "Surgery",
+    "description": "Medical specialty",
+    "question": "Can surgery prevent an existential crisis?",
+    "answer": false,
+    "facts": [
+      "Surgery is used to correct medical problems or make physical alterations to the body",
+      "An existential crisis is a metaphysical affliction"
+    ],
+    "decomposition": [
+      "What is an existential crisis?",
+      "What kinds of ailments can be treated with surgery?",
+      "Is #1 included in #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Existential crisis-1"
+          ]
+        ],
+        [
+          [
+            "Surgery-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Existential crisis-1"
+          ]
+        ],
+        [
+          [
+            "Surgery-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Existential crisis-1"
+          ]
+        ],
+        [
+          [
+            "Surgery-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "16e41c83724a949fb983",
+    "term": "Stone Cold Steve Austin",
+    "description": "American professional wrestler",
+    "question": "Coud every wife of Stone Cold Steve Austin fit in Audi TT?",
+    "answer": true,
+    "facts": [
+      "Stone Cold Steve Austin has been married to 4 different women.",
+      "The Audi TT is a sports car with 4 seats."
+    ],
+    "decomposition": [
+      "How many wives has Stone Cold Steve Austin had?",
+      "How many people can sit in an Audi TT",
+      "Is #2 at least #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Stone Cold Steve Austin-67"
+          ]
+        ],
+        [
+          [
+            "Audi TT-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Stone Cold Steve Austin-67"
+          ]
+        ],
+        [
+          [
+            "2+2 (car body style)-1",
+            "Audi TT-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Stone Cold Steve Austin-67"
+          ]
+        ],
+        [
+          [
+            "Audi TT-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "85300febfe21ecdcc5b1",
+    "term": "Wolverine",
+    "description": "Species of the family Mustelidae",
+    "question": "Would a Wolverine and a Lynx be hard to tell apart?",
+    "answer": false,
+    "facts": [
+      "Wolverines have rounded ears and a bear-like appearance.",
+      "Lynxes have a feline body with pointed ears."
+    ],
+    "decomposition": [
+      "What are the physical characteristics of wolverines?",
+      "What are the physical characteristics of lynxes?",
+      "Is there any significant overlap between #1 and #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Wolverine-6"
+          ]
+        ],
+        [
+          [
+            "Lynx-3"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Wolverine-6"
+          ]
+        ],
+        [
+          [
+            "Lynx-4"
+          ]
+        ],
+        [
+          [
+            "Lynx-4",
+            "Wolverine-6"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Wolverine-6"
+          ]
+        ],
+        [
+          [
+            "Lynx-3",
+            "Lynx-4"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "d9f255a491a0e4048210",
+    "term": "Separation of church and state",
+    "description": "principle to separate religious and civil institutions",
+    "question": "Does USA fail separation of church and state in multiple ways?",
+    "answer": true,
+    "facts": [
+      "Separation of church ad state refers to keeping God and religion out of state matters.",
+      "Presidents of the United States are sworn in by placing their hand on a bible.",
+      "The US currency contains the words, \"In God We Trust.\"",
+      "The Pledge of Allegiance states, \"One Nation Under God.\""
+    ],
+    "decomposition": [
+      "How are US Presidents sworn in?",
+      "What is the inscription on the US currency?",
+      "What does the Pledge of Allegiance state?",
+      "Do #1, #2 and #3 contain references to religion/the chuch?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "President of the United States-46"
+          ]
+        ],
+        [
+          [
+            "In God We Trust-2"
+          ]
+        ],
+        [
+          [
+            "Pledge of Allegiance-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "United States presidential inauguration-23"
+          ]
+        ],
+        [
+          [
+            "In God We Trust-15"
+          ]
+        ],
+        [
+          [
+            "Pledge of Allegiance-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Oath of office of the President of the United States-12"
+          ]
+        ],
+        [
+          [
+            "In God We Trust-3"
+          ]
+        ],
+        [
+          [
+            "Pledge of Allegiance-43"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "cce78efa2e5a91f1a7eb",
+    "term": "Year",
+    "description": "Orbital period of the Earth around the Sun",
+    "question": "Can an African Elephant get pregnant twice in a year?",
+    "answer": false,
+    "facts": [
+      "There are 365 days in one year.",
+      "It takes around 645 days for an African Elephant to give birth to one baby elephant."
+    ],
+    "decomposition": [
+      "What is the gestation period of an African elephant?",
+      "Is #1 less than a year?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "African elephant-26"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "African elephant-28"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "African elephant-26"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "86434d8eecff8b7ddb50",
+    "term": "Twenty-third Amendment to the United States Constitution",
+    "description": "Grants residents of Washington, D.C. the right to vote in U.S. presidential elections",
+    "question": "Did the 23rd amendment give Puerto Ricans the right to vote for president?",
+    "answer": false,
+    "facts": [
+      "The 23rd Amendment to the Constitution gave residents of Washington D.C. the right to vote in presidential elections.",
+      "Puerto Rico is an American territory, not a state, and does not have the right to vote for president.",
+      "Puerto Rico is not Washington D.C."
+    ],
+    "decomposition": [
+      "Which US state was given the right to vote by the 23rd Amendment?",
+      "Is Is Puerto Rico a US state or the same as #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Twenty-third Amendment to the United States Constitution-1"
+          ]
+        ],
+        [
+          [
+            "Puerto Rico-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Twenty-third Amendment to the United States Constitution-1"
+          ]
+        ],
+        [
+          [
+            "Puerto Rico-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Twenty-third Amendment to the United States Constitution-1"
+          ]
+        ],
+        [
+          [
+            "Puerto Rico-1"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "3f8a1bd6bf3a967cdeb6",
+    "term": "Spinal cord",
+    "description": "long, thin, tubular structure made up of nervous tissue",
+    "question": "Would a hedgehog avoid animals without a spinal cord?",
+    "answer": false,
+    "facts": [
+      "A hedgehog has a wide ranging diet including birds, toads, slugs, and snails.",
+      "Slugs are animals known as invertebrates because they have no backbones."
+    ],
+    "decomposition": [
+      "What animals do hedgehog mainly eats?",
+      "Out of #1, do all animals have a spinal cord?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Hedgehog-11"
+          ]
+        ],
+        [
+          [
+            "Frog-54",
+            "Vertebrate-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Hedgehog-11"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Hedgehog-11"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a60c5a3a8bd811b26208",
+    "term": "Flying fish",
+    "description": "Family of marine fish that can make powerful, self-propelled leaps out of water",
+    "question": "Do flying fish have good eyesight?",
+    "answer": true,
+    "facts": [
+      "Flying fish  are commonly found in the epipelagic zone, the top layer of the ocean to a depth of about 200 m (656 ft). ",
+      "The epipelagic zone is the illuminated zone at the surface of the sea where enough light is available for photosynthesis. ",
+      "Good eyesight is a necessary survival trait for animals living in well-lit areas."
+    ],
+    "decomposition": [
+      "Which layer of the ocean are flying fish usually found?",
+      "What are the lighting conditions characteristic of #1?",
+      "Would good eyesight be necessary for organisms in #2 environment?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Flying fish-6"
+          ]
+        ],
+        [
+          [
+            "Photic zone-1"
+          ]
+        ],
+        [
+          [
+            "Photic zone-3"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Flying fish-6"
+          ]
+        ],
+        [
+          [
+            "Photic zone-1"
+          ]
+        ],
+        [
+          [
+            "Photic zone-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Flying fish-6"
+          ]
+        ],
+        [
+          [
+            "Photic zone-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "99f1b07917c2df314619",
+    "term": "Bumblebee",
+    "description": "genus of insects",
+    "question": "Are aggressive bumblebees suicidal?",
+    "answer": false,
+    "facts": [
+      "Bees with barbed stingers lose the barb after attacking a victim and die soon afterwards",
+      "Bumblebees do not have barbed stingers and can sting multiple times without dying"
+    ],
+    "decomposition": [
+      "Can bees with non-barbed stingers sting multiple times?",
+      "Do bumblebees have non-barbed stingers?",
+      "By #1 and #2 do bumblebees die after stinging just once?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Honey bee-61"
+          ]
+        ],
+        [
+          [
+            "Bumblebee-45"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Bombus ternarius-23"
+          ]
+        ],
+        [
+          [
+            "Bumblebee-45"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Bee sting-6"
+          ]
+        ],
+        [
+          [
+            "Bumblebee-45"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "aefa59c255bf15e90f58",
+    "term": "Naruto",
+    "description": "Japanese manga and anime series",
+    "question": "Would the historic Hattori Hanzō admire Naruto?",
+    "answer": false,
+    "facts": [
+      "Naruto is a ninja",
+      "Ninja tactics were considered dishonorable by samurai",
+      "Hattori Hanzō is a famous historical samurai "
+    ],
+    "decomposition": [
+      "What was Naruto's profession?",
+      "What was Hattori Hanzō's profession? ",
+      "Did #2 respect the actions of #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Naruto-1"
+          ]
+        ],
+        [
+          [
+            "Hattori Hanzō-1"
+          ]
+        ],
+        [
+          [
+            "Hattori Hanzō-6"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Naruto-1"
+          ]
+        ],
+        [
+          [
+            "Hattori Hanzō-1"
+          ]
+        ],
+        [
+          [
+            "Ninja-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Naruto-7"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Hattori Hanzō-10"
+          ],
+          "operation"
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "6b3601b4c251046cbef4",
+    "term": "Saint Vincent and the Grenadines",
+    "description": "Country in the Caribbean",
+    "question": "Was Saint Vincent and the Grenadines named by an Italian explorer?",
+    "answer": true,
+    "facts": [
+      "Christopher Columbus, an Italian explorer, was the first European to discover the islands.",
+      "He named them after St. Vincent because he first saw the island on the saint's feast day, and the Spanish city of Granada."
+    ],
+    "decomposition": [
+      "Who discovered Saint Vincent and the Grenadines?",
+      "Was #1 from Italy?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Saint Vincent and the Grenadines-7"
+          ]
+        ],
+        [
+          [
+            "Christopher Columbus-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Saint Vincent and the Grenadines-7"
+          ]
+        ],
+        [
+          [
+            "Christopher Columbus-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Saint Vincent and the Grenadines-7"
+          ]
+        ],
+        [
+          [
+            "Christopher Columbus-1"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "fc60a290ab2e9a467f1c",
+    "term": "Spinach",
+    "description": "species of plant",
+    "question": "For bone growth, is kale more beneficial than spinach?",
+    "answer": true,
+    "facts": [
+      "Calcium is an important nutrient for bone health.",
+      "Kale has more calcium per serving than spinach."
+    ],
+    "decomposition": [
+      "What nutrient is critical for bone growth?",
+      "How much #1 does kale contain?",
+      "How much #1 does spinach contain?",
+      "Is #2 greater than #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Bone growth factor-3"
+          ]
+        ],
+        [
+          [
+            "Kale-11"
+          ]
+        ],
+        [
+          [
+            "Spinach-7"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Calcium-36"
+          ]
+        ],
+        [
+          [
+            "Kale-11"
+          ]
+        ],
+        [
+          [
+            "Spinach-7"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Calcium-3"
+          ]
+        ],
+        [
+          [
+            "Kale-11"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Spinach-7"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "f66cf3ddea2d87e8e572",
+    "term": "Sicilian Defence",
+    "description": "Chess opening",
+    "question": "Would Lee Sedol understand the complexities of the Sicilian Defence?",
+    "answer": false,
+    "facts": [
+      "Lee Sedol is a former South Korean professional Go player of 9 dan rank.",
+      "Go has a different rule set than chess.",
+      "It would not be worthwhile to spend time understanding the complexities of a game that you don't play professionally."
+    ],
+    "decomposition": [
+      "What is Lee Sedol's profession?",
+      "The Sicilian defense is a tactic of which game?",
+      "Would #1 typically invest time in learning about #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Lee Sedol-1"
+          ]
+        ],
+        [
+          [
+            "Sicilian Defence-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Lee Sedol-1"
+          ]
+        ],
+        [
+          [
+            "Sicilian Defence, Accelerated Dragon-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Lee Sedol-3"
+          ],
+          "operation"
+        ],
+        [
+          [
+            "Sicilian Defence-6"
+          ],
+          "operation"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "50ee714386bc6323ae11",
+    "term": "Pelvis",
+    "description": "lower part of the trunk of the human body between the abdomen and the thighs (sometimes also called pelvic region of the trunk",
+    "question": "Is cycling a high-risk activity for pelvis fractures?",
+    "answer": false,
+    "facts": [
+      "Cycling is a low-impact activity ",
+      "Stress fractures in a pelvic bone often develop as a result of repetitive, high-impact activity that puts stress on the pelvis, such as long-distance running or ballet"
+    ],
+    "decomposition": [
+      "What type of activity can result in stress fractures?",
+      "Would cycling be considered #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Stress fracture-6"
+          ]
+        ],
+        [
+          [
+            "Stationary bicycle-7"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Stress fracture-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Pelvic fracture-20"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "c144bc5e23d0944b4f1c",
+    "term": "Mayor",
+    "description": "head of municipal government such as a town or city",
+    "question": "Are Mayors safe from harm from the federal government?",
+    "answer": false,
+    "facts": [
+      "The Mayor of Portland is Ted Wheeler.",
+      "Ted Wheeler was tear-gassed by federal troops sent to his state."
+    ],
+    "decomposition": [
+      "Who is the mayor of Portland?",
+      "Has #1 been able to avoid harm when federal troops were sent to his state"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Ted Wheeler-1"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Government of Portland, Oregon-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Ted Wheeler-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a4526fcfad49a21eed15",
+    "term": "Louvre",
+    "description": "Art museum and Historic site in Paris, France",
+    "question": "Can nitric acid break the Louvre?",
+    "answer": true,
+    "facts": [
+      "Parts of the Louvre are built of limestone.",
+      "Nitric acid dissolves limestone."
+    ],
+    "decomposition": [
+      "What materials were used to build the Louvre?",
+      "Can any of #1 be destroyed by nitric acid?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Louvre Pyramid-2"
+          ]
+        ],
+        [
+          [
+            "Nitric acid-18"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Louvre-21"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Louvre-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Nitric acid-25"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "98f8a80a3a83d0951176",
+    "term": "Curiosity (rover)",
+    "description": "American robotic rover exploring the crater Gale on Mars",
+    "question": "Can Curiosity (rover) kill a cat?",
+    "answer": true,
+    "facts": [
+      "Cats weigh on average between 7 to 10 pounds.",
+      "Curiosity (rover), a space vehicle that explores Mars, weighs 1,982 pounds.",
+      "As mass falls, it picks up acceleration and adds to the force of impact."
+    ],
+    "decomposition": [
+      "How much does a cat weigh?",
+      "How much does Curiosity (rover) weigh?",
+      "Is #2 more than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Cat-28"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Curiosity (rover)-33"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Cat-29"
+          ]
+        ],
+        [
+          [
+            "Curiosity (rover)-33"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Meow (cat)-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Curiosity (rover)-6"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "7b02fc57b8949146bd28",
+    "term": "Comic book",
+    "description": "Publication of comics art",
+    "question": "Does Disney own a major comic book publisher?",
+    "answer": true,
+    "facts": [
+      "The three biggest comic book publishers are DC, Marvel, and IDW.",
+      "Disney has owned Marvel since 2007."
+    ],
+    "decomposition": [
+      "What are the top three biggest comic book publishers?",
+      "What comic book publishers does Disney own?",
+      "Is there any overlap between #1 and #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Big Two Comics-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Marvel Comics-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "American comic book-39",
+            "Marvel Comics-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Marvel Comics-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Comic book-2"
+          ]
+        ],
+        [
+          [
+            "Marvel Entertainment-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "6b7feff09dde2f64fdd5",
+    "term": "Ronda Rousey",
+    "description": "American professional wrestler, actress, author, mixed martial artist and judoka",
+    "question": "Will Ronda Rousey hypothetically defeat X-Men's Colossus in a fight?",
+    "answer": false,
+    "facts": [
+      "Ronda Rousey is a mixed martial artist and wrestler.",
+      "Ronda Rousey relies on striking moves and submission tactics to dominate her opponents.",
+      "X-Men's Colossus has the ability to change his appearance.",
+      "Colossus's mutation allows him to create an organic steel layer, that acts as an impenetrable external shell."
+    ],
+    "decomposition": [
+      "What type of profession is Ronda Rousey in?",
+      "What moves do #1 use to beat their opponents?",
+      "What special ability does X-men have?",
+      "Can someone with #2 easily beat someone with #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Ronda Rousey-1"
+          ]
+        ],
+        [
+          [
+            "Ronda Rousey-43"
+          ]
+        ],
+        [
+          [
+            "X-Men-2"
+          ]
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Ronda Rousey-1"
+          ]
+        ],
+        [
+          [
+            "Professional wrestling-1"
+          ]
+        ],
+        [
+          [
+            "Colossus (comics)-55"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Ronda Rousey-1"
+          ]
+        ],
+        [
+          [
+            "Grappling position-5"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Colossus (comics)-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "316ea9032a8d63df7c91",
+    "term": "Sea otter",
+    "description": "A species of marine mammal from the northern and eastern coasts of the North Pacific Ocean",
+    "question": "Does a sea otter eat spiders?",
+    "answer": false,
+    "facts": [
+      "Sea otters prey mostly on marine invertebrates and other aquatic creatures.",
+      "Spiders are not aquatic creatures and they reside on land."
+    ],
+    "decomposition": [
+      "What are sea otters known to feed on?",
+      "Are spiders included in #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Sea otter-49"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Sea otter-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Sea otter-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "1f0e2597327ddd338fc2",
+    "term": "Common warthog",
+    "description": "Wild member of the pig family",
+    "question": "Is there a warthog on Broadway?",
+    "answer": true,
+    "facts": [
+      "Disney's The Lion King is a popular Broadway musical.",
+      "One of the characters is named Pumbaa.",
+      "Pumbaa is a warthog."
+    ],
+    "decomposition": [
+      "Which animals did Disney movie 'Lion King' feature?",
+      "Is a warthog included in #1?",
+      "Was Lion King adapted for a Broadway musical?",
+      "Considering #2 and #3, would the warthog appear on Broadway?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "The Lion King-10"
+          ]
+        ],
+        [
+          [
+            "The Lion King-10"
+          ]
+        ],
+        [
+          [
+            "The Lion King-24"
+          ]
+        ],
+        [
+          [
+            "The Lion King-10",
+            "The Lion King-24"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "The Lion King-10"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          [
+            "The Lion King (musical)-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "The Lion King-10"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          [
+            "The Lion King (musical)-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "570dad603aee73b5c88e",
+    "term": "Doctor Who",
+    "description": "British science fiction TV series",
+    "question": "In Doctor Who, did the war doctor get more screen time than his successor?",
+    "answer": false,
+    "facts": [
+      "The War Doctor was succeeded by the \"9th Doctor\". ",
+      "The War Doctor was featured in two episodes of Doctor Who.",
+      "The 9th Doctor was featured in 13 episodes of Doctor Who."
+    ],
+    "decomposition": [
+      "Who was the successor of the War Doctor?",
+      "How many episodes was #1 in?",
+      "How many episodes was the War Doctor in?",
+      "Is #3 greater than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "War Doctor-1"
+          ]
+        ],
+        [
+          [
+            "Ninth Doctor-4",
+            "Ninth Doctor-5",
+            "Ninth Doctor-6"
+          ]
+        ],
+        [
+          [
+            "War Doctor-10",
+            "War Doctor-8"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "War Doctor-1"
+          ]
+        ],
+        [
+          [
+            "Ninth Doctor-4",
+            "Ninth Doctor-5"
+          ]
+        ],
+        [
+          [
+            "Doctor Who-47"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "War Doctor-1"
+          ]
+        ],
+        [
+          [
+            "Ninth Doctor-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "War Doctor-10",
+            "War Doctor-7",
+            "War Doctor-8",
+            "War Doctor-9"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a4819e1c28b5e1eb4b09",
+    "term": "Helium",
+    "description": "Chemical element with atomic number 2",
+    "question": "Does the density of helium cause voices to sound deeper?",
+    "answer": false,
+    "facts": [
+      "Helium is less dense than air.",
+      "Sound travels more quickly through helium than it does through air. ",
+      "When sound travels more quickly, the tone of it raises and sounds higher."
+    ],
+    "decomposition": [
+      "What is the density of helium compared to air?",
+      "As a result of #1, what is the speed in which air travel throughs helium compared to air",
+      "When #2 happens, does the tone go deeper?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Lifting gas-1"
+          ]
+        ],
+        [
+          [
+            "Lifting gas-6"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Helium-4"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Helium-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Helium-77"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Helium-64"
+          ]
+        ],
+        [
+          [
+            "Helium-27"
+          ]
+        ],
+        [
+          [
+            "Helium-77"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "30ebf73bc3294792f8de",
+    "term": "Society",
+    "description": "Social group involved in persistent social interaction",
+    "question": "In American society, will a bachelor's degree often include a leap year?",
+    "answer": true,
+    "facts": [
+      "Leap years occur every four years.",
+      "In American society, a bachelor's degree takes about four years."
+    ],
+    "decomposition": [
+      "Leap years occur after how many years' interval?",
+      "How many years does an average bachelor's degree take in the US?",
+      "Is #2 divided by #1 greater than or equal to one?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Leap year-16"
+          ]
+        ],
+        [
+          [
+            "Bachelor's degree-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Leap year-6"
+          ]
+        ],
+        [
+          [
+            "Bachelor's degree-37"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Leap year-2"
+          ]
+        ],
+        [
+          [
+            "Bachelor's degree-1",
+            "Bachelor's degree-37"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "979b4b0fa0a8606bfcae",
+    "term": "Lecturer",
+    "description": "tenure-track or tenured position at a university or similar institution",
+    "question": "Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",
+    "answer": true,
+    "facts": [
+      "Quiet is an assassin from the Metal Gear video game series that does not speak.",
+      "Haub is a school at Pace University that has annual lectures.",
+      "Haub is a law school that has annual lectures on topics in the law field."
+    ],
+    "decomposition": [
+      "Who is Quiet?",
+      "What is #1 unable to do?",
+      "How does one convey information as a lecturer?",
+      "Is #2 the same as #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Quiet (Metal Gear)-1"
+          ]
+        ],
+        [
+          [
+            "Quiet (Metal Gear)-5"
+          ]
+        ],
+        [
+          [
+            "Lecture-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Quiet (Metal Gear)-1"
+          ]
+        ],
+        [
+          [
+            "Quiet (Metal Gear)-7"
+          ]
+        ],
+        [
+          [
+            "Lecture-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Quiet (Metal Gear)-1"
+          ]
+        ],
+        [
+          [
+            "Quiet (Metal Gear)-7"
+          ]
+        ],
+        [
+          [
+            "Lecture-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "140258f12a2ed0221ea5",
+    "term": "Eleventh grade",
+    "description": "educational year",
+    "question": "Would a student in eleventh grade be unable to run for president of the United States?",
+    "answer": true,
+    "facts": [
+      "Students in the eleventh grade are typically 16–17 years of age.",
+      "To serve as president, one must be at least 35 years old."
+    ],
+    "decomposition": [
+      "What is the minimum age one must be to run for president?",
+      "Would a typical eleventh grader be way younger than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "President of the United States-5"
+          ]
+        ],
+        [
+          [
+            "Eleventh grade-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Age of candidacy-60"
+          ]
+        ],
+        [
+          [
+            "Education in Alberta-13"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "President of the United States-5"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "8cc7153ec5a527748adc",
+    "term": "Firewall (computing)",
+    "description": "Software or hardware-based network security system",
+    "question": "Can a firewall protect against a short circuit?",
+    "answer": false,
+    "facts": [
+      "A firewall is a computer program that protects unwanted attacks from penetrating a computer.",
+      "Firewalls are installed on computers and conduct routine background maintenance.",
+      "A short circuit is an electrical failure resulting from wires unable to conduct currents.",
+      "Short circuits, especially during updates can lead to the dreaded Windows Blue Screen of Death in which a computer is unable to restart."
+    ],
+    "decomposition": [
+      "What kind of threats does a firewall protect a computer system against?",
+      "What are the possible causes and results of a short circuit as concerning computers?",
+      "Is any of #2 included in #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Firewall (computing)-13"
+          ]
+        ],
+        [
+          [
+            "Short circuit-7",
+            "Short circuit-9"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Windows Firewall-2"
+          ]
+        ],
+        [
+          [
+            "Short circuit-7"
+          ]
+        ],
+        [
+          [
+            "Short circuit-7"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Firewall (computing)-1"
+          ]
+        ],
+        [
+          [
+            "Short circuit-1",
+            "Short circuit-10",
+            "Short circuit-7"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "c4a9e56df5b83e483769",
+    "term": "Brazilian Navy",
+    "description": "Naval warfare branch of Brazil's military forces",
+    "question": "Could modern Brazilian Navy have hypothetically turned the tide in Battle of Actium?",
+    "answer": true,
+    "facts": [
+      "The Battle of Actium saw Mark Antony's army lose to Octavian.",
+      "Octavian's army had 400 ships, 16000 infantry, and 3,000 archers.",
+      "The Brazilian Navy has over 80,000 personnel, including 16,000 marines.",
+      "Several Brazilian Navy ships are armed with explosive torpedoes. "
+    ],
+    "decomposition": [
+      "What was the result of the Battle of Actium?",
+      "In #1, how many resources did the Octavian's army have?",
+      " How many resources does the Brazilian Navy have? ",
+      "Is #3 significantly more than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Battle of Actium-26"
+          ]
+        ],
+        [
+          [
+            "Battle of Actium-14"
+          ]
+        ],
+        [
+          [
+            "Brazilian Navy-55",
+            "Brazilian Navy-56"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Battle of Actium-2"
+          ]
+        ],
+        [
+          [
+            "Battle of Actium-12"
+          ]
+        ],
+        [
+          [
+            "Brazilian Navy-55"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Battle of Actium-2"
+          ]
+        ],
+        [
+          [
+            "Battle of Actium-12"
+          ]
+        ],
+        [
+          [
+            "Brazilian Navy-56"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "ea0fd9617596c799c33b",
+    "term": "Sun bear",
+    "description": "bear found in tropical forest habitats of Southeast Asia",
+    "question": "Can an American black bear swallow a sun bear whole?",
+    "answer": false,
+    "facts": [
+      "Sun bears grow to only about half the size of an American black bear.",
+      "The total length of adult bear skulls was found to average 262 to 317 mm (10.3 to 12.5 in).",
+      "Black bears cannot open their mouths to half their body length."
+    ],
+    "decomposition": [
+      "How big is the skull of an adult american black bear?",
+      "What is the size of an adult sun bear?",
+      "Is #2 smaller than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "American black bear-19"
+          ]
+        ],
+        [
+          [
+            "Sun bear-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "American black bear-19"
+          ]
+        ],
+        [
+          [
+            "Sun bear-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "American black bear-22"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Sun bear-1"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "2533aef219d77a6860ef",
+    "term": "Cream",
+    "description": "Dairy product",
+    "question": "Would Kylee Jenner ask for no cream in her coffee?",
+    "answer": true,
+    "facts": [
+      "Kylee Jenner is lactose intolerant.",
+      "Lactose intolerance makes it uncomfortable for people to digest foods containing lactose.",
+      "Cream is a dairy product and is rich in lactose."
+    ],
+    "decomposition": [
+      "What dietary condition does Kylee (Kylie) Jenner suffer from?",
+      "What do people who have #1 have to avoid?",
+      "Does cream have #2 in it?"
+    ],
+    "evidence": [
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Lactose intolerance-1"
+          ]
+        ],
+        [
+          [
+            "Cream-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Kylie Jenner-1"
+          ]
+        ],
+        [
+          [
+            "Lactose intolerance-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "73ca2ef1da65b2a2ebe6",
+    "term": "Darth Vader",
+    "description": "fictional character in the Star Wars franchise",
+    "question": "Was Darth Vader monogamous?",
+    "answer": true,
+    "facts": [
+      "Monogamy refers to when a person is married or committed to only one person.",
+      "Darth Vader was only married to Padme Amidala and had two children with her."
+    ],
+    "decomposition": [
+      "If someone is monogamous, how many people are they committed to?",
+      "How many people was Darth Vader committed to?",
+      "Does #2 equal #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Monogamy-1"
+          ]
+        ],
+        [
+          [
+            "Padmé Amidala-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Monogamy-1"
+          ]
+        ],
+        [
+          [
+            "Padmé Amidala-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Monogamy-1"
+          ]
+        ],
+        [
+          [
+            "Darth Vader-2"
+          ]
+        ],
+        [
+          [
+            "Darth Vader-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "2075b087e620fb920439",
+    "term": "Conan O'Brien",
+    "description": "American television show host and comedian",
+    "question": "Would most children be up past their bedtime if they were watching Conan O'Brien?",
+    "answer": true,
+    "facts": [
+      "Conan O'Brien airs at 11 PM. ",
+      "It is recommended that children are in bed before 10PM."
+    ],
+    "decomposition": [
+      "When does Conan O' Brian air?",
+      "What is the recommended bedtime for children?",
+      "Does #1 occur after #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Conan (talk show)-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Conan (talk show)-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Conan O'Brien-34"
+          ]
+        ],
+        [
+          [
+            "Bedtime-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Conan (talk show)-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "7c5daad08c46d9410a81",
+    "term": "French people",
+    "description": "People from France",
+    "question": "Can a student from Smithtown's Cleary School understand the speech of a French person?",
+    "answer": false,
+    "facts": [
+      "French is a romance language that originated in France.",
+      "The Cleary School in Smithtown New York is a school for the deaf."
+    ],
+    "decomposition": [
+      "The Cleary School in Smithtown, New York is for students with which disability?",
+      "Can a person with #1 perceive or understand speech?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Deaf education-25"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Deaf education-25",
+            "Hearing loss-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Deaf education-25"
+          ]
+        ],
+        [
+          [
+            "Physical disability-7"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "7d6b8191f43b8526074e",
+    "term": "Halloween",
+    "description": "Holiday celebrated October 31",
+    "question": "Will Chick Fil A be open on Halloween 2021?",
+    "answer": false,
+    "facts": [
+      "Chick Fil A restaurants close on Sundays.",
+      "Halloween 2021 falls on a Sunday."
+    ],
+    "decomposition": [
+      "What day of the week does Halloween fall on in 2021?",
+      "What days of the week is Chick Fil A closed?",
+      "Is #1 included in #2?"
+    ],
+    "evidence": [
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Chick-fil-A-18"
+          ]
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Chick-fil-A-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Chick-fil-A-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a1a92c378396180e190c",
+    "term": "Supreme Court of the United States",
+    "description": "Highest court in the United States",
+    "question": "Has a neanderthal ever served on the Supreme Court of the United States?",
+    "answer": false,
+    "facts": [
+      "The Supreme Court was established in 1789.",
+      "Neanderthals are primitive humans that lived 40,000 years ago."
+    ],
+    "decomposition": [
+      "How long ago did Neanderthals live?",
+      "How long ago was the Supreme Court of the United States formed?",
+      "Is #2 greater than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Neanderthal-1"
+          ]
+        ],
+        [
+          [
+            "Supreme Court of the United States-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Neanderthal-1"
+          ]
+        ],
+        [
+          [
+            "Supreme Court of the United States-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Neanderthal-1"
+          ]
+        ],
+        [
+          [
+            "Supreme Court of the United States-8"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "7571100f05bc56919c78",
+    "term": "Funeral",
+    "description": "ceremony for a person who has died",
+    "question": "Is it unusual to play Happy hardcore music at a funeral?",
+    "answer": true,
+    "facts": [
+      "Happy hardcore is a music genre of hard dance.",
+      "Happy hardcore emerged both from the UK breakbeat hardcore rave scene, and Belgian, German and Dutch hardcore techno scenes.",
+      "A funeral is traditionally a somber event.",
+      "Funerals typically do not involve dancing.",
+      "Raves are typically energetic and upbeat places and are not somber like a funeral."
+    ],
+    "decomposition": [
+      "What type of music is usually played at funerals?",
+      "What are the characteristics of Happy Hardcore music?",
+      "Do any of #1 have the characteristics of #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Funeral-8"
+          ]
+        ],
+        [
+          [
+            "Happy hardcore-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Dirge-1"
+          ]
+        ],
+        [
+          [
+            "Happy hardcore-1",
+            "Happy hardcore-7"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Funeral march-1"
+          ]
+        ],
+        [
+          [
+            "Happy hardcore-2"
+          ]
+        ],
+        [
+          [
+            "Funeral march-1"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "1feaaac968a53eac2a67",
+    "term": "Goldfish",
+    "description": "freshwater fish, common in aquariums",
+    "question": "Are goldfish more difficult to care for than isopods?",
+    "answer": true,
+    "facts": [
+      "Isopod care is compared to that of a houseplant.",
+      "Goldfish are notorious for making their tanks dirty quite often."
+    ],
+    "decomposition": [
+      "What is isopod care comparable to?",
+      "What challenges do Goldfish pose to keepers?",
+      "Is #1 easier to deal with than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Isopoda-14",
+            "Isopoda-15"
+          ]
+        ],
+        [
+          [
+            "Goldfish-28"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Isopoda-1",
+            "Isopoda-13"
+          ]
+        ],
+        [
+          [
+            "Goldfish-15"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Isopoda-1"
+          ]
+        ],
+        [
+          [
+            "Goldfish-17",
+            "Goldfish-21",
+            "Goldfish-22"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "3157a0f428531ebed7b9",
+    "term": "Minor League Baseball",
+    "description": "hierarchy of professional baseball leagues affiliated with Major League Baseball",
+    "question": "Are any minor league baseball teams named after felines?",
+    "answer": true,
+    "facts": [
+      "Felines include cats, tigers, and lions.",
+      "The Sacramento River Cats are a minor league baseball affiliate of the San Francisco Giants.",
+      "The Tri-City Valley Cats are a minor league baseball affiliate of the Houston Astros.",
+      "The Lakeland Flying Tigers are a minor league baseball affiliate of the Detroit Tigers."
+    ],
+    "decomposition": [
+      "What are the names of teams in Minor League Baseball?",
+      "Which animals are regarded as felines?",
+      "Does any of #1 include any of #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Lynchburg Hillcats-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Felinae-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Minor League Baseball-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Felidae-1"
+          ]
+        ],
+        [
+          [
+            "New Hampshire Fisher Cats-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "New Hampshire Fisher Cats-1",
+            "Sacramento River Cats-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Felidae-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "5f96f27de4c8cdafc070",
+    "term": "Brake",
+    "description": "mechanical device that inhibits motion",
+    "question": "Can people die from brake failure?",
+    "answer": true,
+    "facts": [
+      "Brake failure is the inability of brakes to function.",
+      "When vehicles experience brake failure, they cannot be stopped safely, which results in a crash.",
+      "People die in vehicular crashes."
+    ],
+    "decomposition": [
+      "What is a brake failure?",
+      "What can #1 lead to in a car?",
+      "Have people died from #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Disc brake-63"
+          ]
+        ],
+        [
+          [
+            "Traffic collision-1",
+            "Traffic collision-50"
+          ]
+        ],
+        [
+          [
+            "Falco (musician)-22"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Brake-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Traffic collision-1",
+            "Traffic collision-24"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Traffic collision-3"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "614b682ff2b6ddd9ecba",
+    "term": "Marco Polo",
+    "description": "Italian explorer and merchant noted for travel to central and eastern Asia",
+    "question": "Do you often hear Marco Polo's name shouted near water?",
+    "answer": true,
+    "facts": [
+      "\"Marco Polo\" is a popular game among children and adults played while swimming.",
+      "To play \"Marco Polo\", one person shouts \"Marco\" and the other shouts \"Polo\" while avoiding being tagged."
+    ],
+    "decomposition": [
+      "What is the game Marco Polo?",
+      "When is #1 typically played?",
+      "Does #2 occur near or in water?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Marco Polo (game)-1"
+          ]
+        ],
+        [
+          [
+            "Marco Polo (game)-1"
+          ]
+        ],
+        [
+          [
+            "Swimming pool-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Marco Polo (game)-1",
+            "Marco Polo (game)-2"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Marco Polo (game)-2"
+          ]
+        ],
+        [
+          [
+            "Marco Polo (game)-2"
+          ]
+        ],
+        [
+          [
+            "Marco Polo (game)-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "c67945e7c471a9692c88",
+    "term": "Snowy owl",
+    "description": "species of bird",
+    "question": "Could a snowy owl survive in the Sonoran?",
+    "answer": false,
+    "facts": [
+      "The Snowy owl is a bird native to the Arctic regions of North America.",
+      "Temperatures in the North American Arctic range from -36.4F to 50F.",
+      "The Sonoran is one of the hottest deserts in the world.",
+      "The Sonoran Desert can get as hot as 118F."
+    ],
+    "decomposition": [
+      "Where are Snowy owls found?",
+      "What is the temperature range of #1?",
+      "How hot does it get in the Sonoran Desert?",
+      "Is #3 within #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Snowy owl-1"
+          ]
+        ],
+        [
+          [
+            "Climate of the Arctic-40"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Snowy owl-1"
+          ]
+        ],
+        [
+          [
+            "Arctic-4"
+          ]
+        ],
+        [
+          [
+            "Sonoran Desert-18"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Snowy owl-1"
+          ]
+        ],
+        [
+          [
+            "Arctic-4"
+          ]
+        ],
+        [
+          [
+            "Sonoran Desert-18"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "8669c9d0666951d25ef0",
+    "term": "Lighthouse of Alexandria",
+    "description": "Ancient lighthouse in Egypt",
+    "question": "Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?",
+    "answer": false,
+    "facts": [
+      "The Statue of Liberty rises 305 feet into the air.",
+      "The Statue of Unity is 597 feet high.",
+      "The Lighthouse of Alexandria was between 338 and 387 feet tall."
+    ],
+    "decomposition": [
+      "What is the height of the Statue of Liberty?",
+      "What is the height of the Statue of Unity?",
+      "What is the height of the Lighthouse of Alexandria?",
+      "Is #2 minus #1 less than #3 minus #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Statue of Liberty-31"
+          ]
+        ],
+        [
+          [
+            "Statue of Unity-9"
+          ]
+        ],
+        [
+          [
+            "Lighthouse of Alexandria-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Statue of Liberty-18"
+          ]
+        ],
+        [
+          [
+            "Statue of Unity-1"
+          ]
+        ],
+        [
+          [
+            "Lighthouse of Alexandria-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Statue of Liberty-18"
+          ]
+        ],
+        [
+          [
+            "Statue of Unity-1"
+          ]
+        ],
+        [
+          [
+            "Lighthouse of Alexandria-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "3b38e00d8d1da26f7f02",
+    "term": "Mario",
+    "description": "fictional character from Nintendo's ''Mario'' franchise and the company's mascot",
+    "question": "Does Mario use mushrooms to run faster?",
+    "answer": false,
+    "facts": [
+      "Mushrooms in the Mario universe are used to provide extra lives and to make Mario grow, providing him an extra hit point. ",
+      "Mario is made to run faster when he wears bunny ears or uses a starman."
+    ],
+    "decomposition": [
+      "In the Mario Universe what abilities do mushrooms give to Mario when collected?",
+      "Is any of #1 increased speed?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Super Mario-33",
+            "Super Mario-35",
+            "Super Mario-36"
+          ]
+        ],
+        [
+          [
+            "Super Mario-33"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Goomba-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Super Mario-33"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "0765f1c9358d2ad938c7",
+    "term": "Richard Wagner",
+    "description": "German composer",
+    "question": "Did Richard Wagner compose the theme songs for two television series?",
+    "answer": false,
+    "facts": [
+      "Richard Wagner died in 1883.",
+      "Televisions started to be developed in the 1920s."
+    ],
+    "decomposition": [
+      "When did the television first become available?",
+      "When did Richard Wagner die?",
+      "Is #1 before #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Television-2"
+          ]
+        ],
+        [
+          [
+            "Richard Wagner-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Television-2"
+          ]
+        ],
+        [
+          [
+            "Richard Wagner-45"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "History of television-141"
+          ]
+        ],
+        [
+          [
+            "Ca' Vendramin Calergi-9"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "353bf34cd9457f69b870",
+    "term": "YMCA",
+    "description": "Worldwide organization founded in 1844 on principles of muscular Christianity",
+    "question": "Is it normal for people to sing when the YMCA is mentioned?",
+    "answer": true,
+    "facts": [
+      "The YMCA was written about in a widely popular song by \"The Village People\"",
+      "The Village People's song \"YMCA\" had an easy to do and very popular dance routine that went with it. ",
+      "The song \"YMCA\" is extremely well known."
+    ],
+    "decomposition": [
+      "In what song was the YMCA written about?",
+      "Is #1 a very popular song?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Y.M.C.A. (song)-1"
+          ]
+        ],
+        [
+          [
+            "Y.M.C.A. (song)-2"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Y.M.C.A. (song)-1"
+          ]
+        ],
+        [
+          [
+            "Y.M.C.A. (song)-4"
+          ],
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Y.M.C.A. (song)-1"
+          ]
+        ],
+        [
+          [
+            "Y.M.C.A. (song)-1",
+            "Y.M.C.A. (song)-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "a905e30e6cfc76377348",
+    "term": "Bitcoin",
+    "description": "decentralized cryptocurrency",
+    "question": "Could a single bitcoin ever cover cost of a Volkswagen Jetta?",
+    "answer": true,
+    "facts": [
+      "The all time high price of bitcoin was $19,783 in 2017.",
+      "The suggested retail price of a 2020 Volkswagen Jetta is $18,895."
+    ],
+    "decomposition": [
+      "What is the highest price for a bitcoin?",
+      "What is the cheapest price of a Jetta?",
+      "Is #1 greater than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Bitcoin-22"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Bitcoin-22"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Economics of bitcoin-16"
+          ]
+        ],
+        [
+          [
+            "Volkswagen Jetta-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "5801d9ee89c288ccb4b7",
+    "term": "Arnold Schwarzenegger",
+    "description": "Austrian-American actor, businessman, bodybuilder and politician",
+    "question": "Would Arnold Schwarzenegger have a hard time picking up a red fox in 1967?",
+    "answer": false,
+    "facts": [
+      "In 1967, Schwarzenegger won the Munich stone-lifting contest, in which a stone weighing 508 German pounds (254 kg / 560 lb) is lifted between the legs while standing on two footrests.",
+      "Red foxes weigh between 2.2–14 kg (5–31 lb)."
+    ],
+    "decomposition": [
+      "How much could Arnold Schwarzenegger life in 1967?",
+      "What is the typical weight of a Red Fox?",
+      "Is #2 more than #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Arnold Schwarzenegger-23"
+          ]
+        ],
+        [
+          [
+            "Red fox-18"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Arnold Schwarzenegger-23"
+          ]
+        ],
+        [
+          [
+            "Red fox-18"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Arnold Schwarzenegger-23"
+          ]
+        ],
+        [
+          [
+            "Vulpes-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "6d14da7484991bf588cf",
+    "term": "Royal Air Force",
+    "description": "Aerial warfare service branch of the British Armed Forces",
+    "question": "Did the Royal Air Force fight in the Boxer Rebellion?",
+    "answer": false,
+    "facts": [
+      "The Boxer Rebellion took place from 1899–1901",
+      "The Royal Air Force was formed on 1 April 1918"
+    ],
+    "decomposition": [
+      "When was the Royal Air Force formed?",
+      "In what year did the Boxer Rebellion end?",
+      "Is #1 before #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Royal Air Force-1"
+          ]
+        ],
+        [
+          [
+            "Boxer Rebellion-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Royal Air Force-1"
+          ]
+        ],
+        [
+          [
+            "Boxer Rebellion-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Royal Air Force-1"
+          ]
+        ],
+        [
+          [
+            "Boxer Rebellion-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "b6e0094f030a326e510a",
+    "term": "Wool",
+    "description": "Textile fibre from the hair of sheep or other mammals",
+    "question": "Can a Sphynx cat be used for wool?",
+    "answer": false,
+    "facts": [
+      "A Sphynx cat is a breed of cats that lacks hair.",
+      "Wool is a soft smooth fabric derived from the hair of animals.",
+      "Sphynx cats skin are covered in an oily sticky substance."
+    ],
+    "decomposition": [
+      "Which animals can wool be derived from?",
+      "Is the Sphynx cat likely to be included in #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Wool-1"
+          ]
+        ],
+        [
+          [
+            "Sphynx cat-5"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Wool-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Wool-7"
+          ]
+        ],
+        [
+          [
+            "Sphynx cat-10"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "89e1a3d04dc74dc36dac",
+    "term": "Justin Bieber",
+    "description": "Canadian singer-songwriter and actor",
+    "question": "Will Justin Bieber take over Mike Pence's position in 2020?",
+    "answer": false,
+    "facts": [
+      "Mike Pence is Vice President of the United States.",
+      "The Vice President must be a US citizen.",
+      "The Vice President must be at least 35 years of age.",
+      "Justin Bieber is a Canadian citizen.",
+      "Justin Bieber is 26 years old in 2020."
+    ],
+    "decomposition": [
+      "What is Mike Pence's present position?",
+      "What is the age/nationality requirement to be a #1?",
+      "What is Justin Bieber's age/nationality by 2020?",
+      "Does #3 match #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Mike Pence-4"
+          ]
+        ],
+        [
+          [
+            "Age of candidacy-8"
+          ]
+        ],
+        [
+          [
+            "Justin Bieber-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Mike Pence-4"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Justin Bieber-1"
+          ]
+        ],
+        [
+          [
+            "Justin Bieber-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Natural-born-citizen clause-1",
+            "Vice President of the United States-24"
+          ]
+        ],
+        [
+          [
+            "Vice President of the United States-25"
+          ]
+        ],
+        [
+          [
+            "Justin Bieber-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "c6b927da57fb0b45b830",
+    "term": "Bicycle",
+    "description": "Pedal-driven two-wheel vehicle",
+    "question": "Do children's bicycles often have extra wheels?",
+    "answer": true,
+    "facts": [
+      "Training wheels are a set of two wheels to attach to bicycles of new bike riders for additional support.",
+      "Training wheels are marketed primarily at children."
+    ],
+    "decomposition": [
+      "What types of bicycles have more than two wheels?",
+      "Are any of #1 customarily bought for children?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Training wheels-1"
+          ]
+        ],
+        [
+          [
+            "Training wheels-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Tricycle-3"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Tricycle-1"
+          ]
+        ],
+        [
+          [
+            "Tricycle-3"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "2b45a624da84a288d37e",
+    "term": "Wednesday",
+    "description": "Day of the week",
+    "question": "Are all Wednesdays in a year enough to read Bible 15 times?",
+    "answer": true,
+    "facts": [
+      "There are 52 Wednesdays in a year.",
+      "There are 1,248 hours over all the Wednesdays in a year.",
+      "The Old Testament of the Bible takes an average of 52 hours to read.",
+      "The New Testament of the Bible takes an average of 18 hours to read."
+    ],
+    "decomposition": [
+      "How many Wednesdays are there in a year?",
+      "What is #1 multiplied by 24?",
+      "How long does it take to read the old testament?",
+      "How long does it take to read the new testament?",
+      "Is #2 greater than or equal to: #3 plus #4?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Year-57"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          [
+            "Old Testament-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "New Testament-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Week-10"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          [
+            "New Testament-11",
+            "Old Testament-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "New Testament-9"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Year-66"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ],
+        [
+          [
+            "Protestant Bible-15"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Protestant Bible-15"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "3b70f1178fdb45ad2a24",
+    "term": "Ariana Grande",
+    "description": "American singer, songwriter, and actress",
+    "question": "Does Ariana Grande's signature style combine comfort items and high fashion?",
+    "answer": true,
+    "facts": [
+      "Ariana Grande's signature style is a long, over-sized pullover sweater with thigh high heels.",
+      "Oversized pullovers are considered lounge wear, for relaxing at home in. ",
+      "High heels are associated with high style. "
+    ],
+    "decomposition": [
+      "What is Ariana Grande's signature top?",
+      "What is Ariana Grande's signature shoewear?",
+      "What type of clothing is #1 considered?",
+      "Is #3 considered a comfort and item and is #2 considered a high style item?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Ariana Grande-34"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Ariana Grande-34"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ]
+      ],
+      [
+        [
+          [
+            "Ariana Grande-34"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Ariana Grande-34"
+          ]
+        ],
+        [
+          [
+            "Ariana Grande-34"
+          ]
+        ],
+        [
+          [
+            "Crop top-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "4589898e4852e5389728",
+    "term": "YMCA",
+    "description": "Worldwide organization founded in 1844 on principles of muscular Christianity",
+    "question": "Can you get Raclette in YMCA headquarters city?",
+    "answer": true,
+    "facts": [
+      "YMCA is headquartered in Geneva, Switzerland.",
+      "Raclette is a melted cheese and potato dish.",
+      "Raclette is one of several foods Geneva, Switzerland is famous for."
+    ],
+    "decomposition": [
+      "Where is the YMCA headquartered?",
+      "What foods is #1 famous for?",
+      "Is raclette in #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "YMCA-1"
+          ]
+        ],
+        [
+          [
+            "Swiss Cheese Union-9"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Raclette-2"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "YMCA-1"
+          ]
+        ],
+        [
+          [
+            "Swiss cuisine-2"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "YMCA-53"
+          ]
+        ],
+        [
+          [
+            "Lincoln Park, Chicago-37"
+          ]
+        ],
+        [
+          [
+            "Raclette-1"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "5bd310c98053eff5445e",
+    "term": "Rowing (sport)",
+    "description": "Sport where individuals or teams row boats by oar",
+    "question": "Can rowing competitions take place indoors?",
+    "answer": false,
+    "facts": [
+      "Rowing is a sport involving propelling boats.",
+      "Boats need a large body of water in order to move.",
+      "There are no indoor facilities big enough to host a pool with enough size for a boating competition."
+    ],
+    "decomposition": [
+      "What is the main equipment required for rowing?",
+      "What surface does #1 need in order to move?",
+      "Is there an indoor facility with a big enough amount of #2 to host a competition?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Rowing-1"
+          ]
+        ],
+        [
+          [
+            "Rowing-1"
+          ]
+        ],
+        [
+          [
+            "Indoor rowing at the 2017 World Games-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Rowing-1"
+          ]
+        ],
+        [
+          [
+            "Rowing-1"
+          ]
+        ],
+        [
+          [
+            "Olympic-size swimming pool-1"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rowing (sport)-20"
+          ]
+        ],
+        [
+          [
+            "Rowing (sport)-20"
+          ]
+        ],
+        [
+          "no_evidence"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "037acdd213ada618830f",
+    "term": "Sesame",
+    "description": "species of plant",
+    "question": "Would a sesame seed be mistaken for a wood frog egg?",
+    "answer": false,
+    "facts": [
+      "A sesame seed is a flat 3 to 4 mm size seed.",
+      "Wood frog eggs are globe looking masses about 2 to 5 inches in diameter."
+    ],
+    "decomposition": [
+      "What shape and size is a sesame seed?",
+      "What is the shape and size of a wood frog egg?",
+      "Are #1 and #2 the same?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Sesame-11"
+          ]
+        ],
+        [
+          [
+            "Wood frog-14"
+          ]
+        ],
+        [
+          [
+            "Sesame-11",
+            "Wood frog-14"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Sesame-11"
+          ]
+        ],
+        [
+          [
+            "Wood frog-14"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Sesame-11"
+          ]
+        ],
+        [
+          [
+            "Wood frog-14",
+            "Wood frog-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "9527809204a14d94be67",
+    "term": "Onion",
+    "description": "vegetable",
+    "question": "Can chemicals in onion help create a thermonuclear bomb?",
+    "answer": true,
+    "facts": [
+      "A thermonuclear bomb, also called a hydrogen bomb, uses hydrogen under high temperatures to create an explosive reaction.",
+      "While chopping onions, cells inside the onion are broken and the gas that comes out forms sulfenic acid.",
+      "Sulfenic acid is composed of several elements including hydrogen."
+    ],
+    "decomposition": [
+      "What elements are used in a thermonuclear bomb?",
+      "When onions are chopped what gas is released?",
+      "What elements are found in #2?",
+      "Is #1 a subset of #3?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Thermonuclear weapon-2"
+          ]
+        ],
+        [
+          [
+            "Onion-30"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Syn-Propanethial-S-oxide-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Thermonuclear weapon-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Onion-30"
+          ]
+        ],
+        [
+          "operation"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Thermonuclear weapon-2"
+          ]
+        ],
+        [
+          [
+            "Onion-30"
+          ]
+        ],
+        [
+          [
+            "Syn-Propanethial-S-oxide-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "e4945001c03fa74e1cc9",
+    "term": "Hanuman",
+    "description": "The divine monkey companion of Rama in Hindu mythology",
+    "question": "Does Hanuman have some of the same duties as Athena?",
+    "answer": true,
+    "facts": [
+      "Hanuman, the divine Hindu monkey, is a god of strength, knowledge, and victory.",
+      "Athena was the Greek goddess of war, and wisdom."
+    ],
+    "decomposition": [
+      " Hanuman said to be the deity of what subjects?",
+      "Athena said to be the deity of what subjects?",
+      "Is at least one subject listed in both #1 and #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Hanuman-14"
+          ]
+        ],
+        [
+          [
+            "Athena-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Hanuman-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Athena-1"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Hanuman-2"
+          ]
+        ],
+        [
+          [
+            "Athena-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "347eea662abc9467ed18",
+    "term": "Jason",
+    "description": "Greek mythological hero",
+    "question": "Could the children of Greek hero Jason hypothetically fill a polo team?",
+    "answer": true,
+    "facts": [
+      "The Greek mythological hero is known for his quest to obtain the Golden Fleece.",
+      "The Greek mythological hero had four children: Euneus, Nebrophonus, Mermerus, and Pheres.",
+      "Polo is a sport played between two teams of 4 players."
+    ],
+    "decomposition": [
+      "How many children did Greek mythological hero Jason have?",
+      "How many people are needed to make a polo team?",
+      "Is #1 equal to or more than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          "no_evidence"
+        ],
+        [
+          [
+            "Polo-51"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Medea-10"
+          ]
+        ],
+        [
+          [
+            "Polo-4"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Medea-10"
+          ]
+        ],
+        [
+          [
+            "Water polo-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "5f49ef79fd5da00548e3",
+    "term": "Rand Paul",
+    "description": "American politician, ophthalmologist, and United States Senator from Kentucky",
+    "question": "Did Rand Paul frequently swim in Lake Michigan during his undergraduate years?",
+    "answer": false,
+    "facts": [
+      "Rand Paul joined the swim team when he attended Baylor University.",
+      "Baylor University is located in Waco, Texas.",
+      "Lake Michigan is nearly 1,000 miles from Waco, Texas."
+    ],
+    "decomposition": [
+      "Where did Rand Paul do his undergraduate studies?",
+      "In what state is #1?",
+      "Is Lake Michigan near #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "University of Pittsburgh School of Medicine-26"
+          ]
+        ],
+        [
+          [
+            "Baylor University-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rand Paul-2"
+          ]
+        ],
+        [
+          [
+            "Baylor University-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rand Paul-9"
+          ]
+        ],
+        [
+          [
+            "Baylor University-1"
+          ]
+        ],
+        [
+          [
+            "Lake Michigan-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "2be83f11f8b6602afe87",
+    "term": "Psychotherapy",
+    "description": "clinically applied psychology for desired behavior modification",
+    "question": "Do some psychotherapy patients have no mental illness?",
+    "answer": true,
+    "facts": [
+      "Psychotherapy is useful for couples navigating relationship issues.",
+      "Grief is a common reason that people seek psychotherapy. "
+    ],
+    "decomposition": [
+      "What are some common issues that make people seek psychotherapy?",
+      "Does #1 not always involve mental illness?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Psychotherapy-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Psychotherapy-1"
+          ]
+        ],
+        [
+          [
+            "Psychotherapy-4"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Psychotherapy-1"
+          ]
+        ],
+        [
+          [
+            "Psychotherapy-32"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "8cce11a0fc856f4c4539",
+    "term": "Brussels sprout",
+    "description": "vegetable",
+    "question": "Would many meals heavy in brussels sprouts benefit someone on Coumadin?",
+    "answer": false,
+    "facts": [
+      "Brussels sprouts are high in vitamin K",
+      "Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants ",
+      "Coumadin is an anticoagulant "
+    ],
+    "decomposition": [
+      "In which class of drugs is Coumadin in?",
+      "Which nutrients are people taking #1 cautioned against getting too much of?",
+      "Are Brussels sprouts low in #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Warfarin-1"
+          ]
+        ],
+        [
+          [
+            "Vitamin K-19"
+          ]
+        ],
+        [
+          [
+            "Brussels sprout-12"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Warfarin-1"
+          ]
+        ],
+        [
+          [
+            "Warfarin-11"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Cruciferous vegetables-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Warfarin-1"
+          ]
+        ],
+        [
+          [
+            "Warfarin-2"
+          ]
+        ],
+        [
+          [
+            "Vitamin K-33",
+            "Warfarin-2"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "784d37fe54b0ad49c49a",
+    "term": "Jukebox musical",
+    "description": "stage or film musical compiled from pre-existing songs",
+    "question": "Is there a jukebox musical about a sweet transvestite from Transexual, Transylvania?",
+    "answer": false,
+    "facts": [
+      "Jukebox musicals feature songs that have already been released.",
+      "Rocky Horror Picture Show is about a sweet transvestite from Transexual, Transylvania",
+      "Rocky Horror Picture Show contains songs written specifically for itself"
+    ],
+    "decomposition": [
+      "What is characteristic of songs in a jukebox musical?",
+      "What musical is about a sweet transvestite from Transexual, Transylvania?",
+      "Does #2 contain #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Jukebox musical-6"
+          ]
+        ],
+        [
+          [
+            "The Rocky Horror Picture Show-5"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Jukebox musical-1"
+          ]
+        ],
+        [
+          [
+            "The Rocky Horror Show-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Jukebox musical-1"
+          ]
+        ],
+        [
+          [
+            "The Rocky Horror Picture Show-5"
+          ]
+        ],
+        [
+          [
+            "The Rocky Horror Picture Show-31"
+          ],
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "378ccb7bc29c9ce4eea0",
+    "term": "Menthol",
+    "description": "chemical compound",
+    "question": "Does menthol make cigarettes less addictive?",
+    "answer": false,
+    "facts": [
+      "The addition of menthol to cigarettes does not reduce the amount of nicotine in them.",
+      "Menthol itself is an addictive chemical. ",
+      "Nicotine is the primary addictive component of cigarettes."
+    ],
+    "decomposition": [
+      "What is the primary addictive components in cigarettes?",
+      "Does addition of menthol cause a reduction in #1?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Cigarette-3"
+          ]
+        ],
+        [
+          [
+            "Menthol cigarette-32"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Nicotine-11"
+          ]
+        ],
+        [
+          [
+            "Menthol cigarette-29"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Cigarette-1"
+          ]
+        ],
+        [
+          [
+            "Menthol cigarette-29"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "43a26c2f067095e1992b",
+    "term": "Guitar Hero",
+    "description": "video game series",
+    "question": "Is Guitar Hero Beatles inappropriate for a US third grader?",
+    "answer": false,
+    "facts": [
+      "The average age of a US third grader is 8.",
+      "Guitar Hero is recommended for ages 7 and up.",
+      "The Beatles were a British rock band with a plethora of radio friendly hits."
+    ],
+    "decomposition": [
+      "How old is the average US third grader?",
+      "What is the recommended age to play Guitar Hero?",
+      "Is #1 higher than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Third grade-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Third grade-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Third grade-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "e6d8397b258ac4006210",
+    "term": "Rosemary",
+    "description": "species of plant, rosemary",
+    "question": "Is Rosemary outclassed as plant found in most song titles?",
+    "answer": true,
+    "facts": [
+      "Rosemary appears in a few popular song titles such as Love Grows (Where My Rosemary Goes) and Randy Newman's Rosemary.",
+      "Rose appears in many song titles including: Kiss From a Rose, The Rose, Desert Rose, Beauty of the Rose, and I Never Promised You a Rose Garden."
+    ],
+    "decomposition": [
+      "How many songs have \"rosemary\" in the title?",
+      "How many songs have the plant \"rose\" in the title?",
+      "Is #1 fewer than #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Love Grows (Where My Rosemary Goes)-3"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Blue Rose (song)-4",
+            "Kiss from a Rose-1",
+            "Lady Rose (song)-1",
+            "The Rose (song)-2"
+          ],
+          "no_evidence"
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Love Grows (Where My Rosemary Goes)-1",
+            "Rosemary Lane (song)-1"
+          ]
+        ],
+        [
+          [
+            "Desert Rose (Sting song)-1",
+            "Every Rose Has Its Thorn-1",
+            "Kiss from a Rose-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Rosemary-23"
+          ],
+          "no_evidence"
+        ],
+        [
+          [
+            "Rose-25"
+          ],
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "5694613473f2c2c557f7",
+    "term": "New York Harbor",
+    "description": "harbor in the New York City, U.S.A. metropolitan area",
+    "question": "Does a giant green lady stand in New York Harbor?",
+    "answer": true,
+    "facts": [
+      "New York Harbor is a body of water between south Manhattan and the Atlantic Ocean",
+      "The Statue of Liberty stands in New York Harbor",
+      "The Statue of Liberty is a very large, green statue of a woman"
+    ],
+    "decomposition": [
+      "Where is The Statue of Liberty located?",
+      "Is #1 in New York Harbor?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Statue of Liberty-1"
+          ]
+        ],
+        [
+          [
+            "Statue of Liberty-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Statue of Liberty-1"
+          ]
+        ],
+        [
+          [
+            "Statue of Liberty-1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "Statue of Liberty-1"
+          ]
+        ],
+        [
+          "operation"
+        ]
+      ]
+    ]
+  },
+  {
+    "qid": "4a8361174e3f01cf8c2e",
+    "term": "Achilles",
+    "description": "Greek mythological hero",
+    "question": "Was Achilles a direct descendent of Gaia?",
+    "answer": true,
+    "facts": [
+      "Achilles was the son of a Nereid. ",
+      "The Nereids were the 50 daughters of Nereus.",
+      "Nereus was the eldest son of the union between Gaia and Pontus."
+    ],
+    "decomposition": [
+      "Who were Achilles' parents?",
+      "Who were the children of Gaia?",
+      "Were any of #1 the children of #2?"
+    ],
+    "evidence": [
+      [
+        [
+          [
+            "Achilles-1"
+          ]
+        ],
+        [
+          [
+            "Gaia-1",
+            "Nereus-1"
+          ]
+        ],
+        [
+          [
+            "Thetis-1"
+          ],
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Achilles-1"
+          ]
+        ],
+        [
+          "no_evidence"
+        ],
+        [
+          "no_evidence",
+          "operation"
+        ]
+      ],
+      [
+        [
+          [
+            "Achilles-1"
+          ]
+        ],
+        [
+          [
+            "Nereus-1"
+          ]
+        ],
+        [
+          [
+            "Thetis-1"
+          ],
+          "operation"
+        ]
+      ]
+    ]
+  }
+]

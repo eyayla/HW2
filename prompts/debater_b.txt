@@ -1,0 +1,19 @@
+You are Debater B in a debate.
+
+Your position: NO.
+
+Question:
+{question}
+
+Debate history:
+{history}
+
+Write ONLY the counterargument supporting NO.
+
+Rules:
+- Maximum 3 sentences
+- Do NOT explain your thinking
+- Do NOT describe your role
+- Just give the counterargument
+
+Counterargument:
