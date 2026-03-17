@@ -1,223 +1,246 @@
-# LLM Debate System – NLP Assignment
+# Multi-Agent Debate System for LLM Reasoning
 
-## Overview
+This repository implements a **multi-agent debate framework** for improving reasoning in Large Language Models (LLMs). The system simulates a structured debate between two AI agents arguing opposite sides of a question, while a third agent acts as a judge.
 
-This project implements a **multi-agent debate system using Large Language Models (LLMs)** for reasoning tasks.
-Two agents argue opposing positions (Yes / No) about a question, and a **judge model evaluates the debate and decides the final answer**.
+The project was developed for the **Natural Language Processing (NLP) course assignment** and is inspired by research on multi-agent reasoning and AI debate.
 
-The goal of this project is to explore whether **structured debate between LLM agents can improve reasoning performance** on complex question-answering tasks.
+Relevant research:
 
-The system was evaluated using the **StrategyQA dataset**, which contains questions requiring multi-step commonsense reasoning.
-
----
-
-## Dataset
-
-This project uses the **StrategyQA dataset**:
-
-Geva et al., 2021
-*Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies*
-
-StrategyQA contains **yes/no questions that require implicit reasoning**.
-
-For this assignment:
-
-* **100 questions** were sampled from the dataset
-* Each question includes a **ground truth answer (Yes/No)**
-
-Example question:
-
-> Did the Roman Empire exist at the same time as the Mayan civilization?
+- Irving, Christiano & Amodei (2018) — *AI Safety via Debate*
+- Liang et al. (2024) — *Encouraging Divergent Thinking in LLMs through Multi-Agent Debate*
+- Wang et al. (2023) — *Self-Consistency Improves Chain-of-Thought Reasoning*
 
 ---
 
-## Model
+# System Overview
 
-The debate system uses:
+The system contains three LLM agents:
 
-**Qwen3-8B**
+### Debater A
+Argues **YES** for the given question.
 
-The model is accessed through the **UTSA LLM API endpoint**.
+### Debater B
+Argues **NO** and provides counterarguments.
 
-Each debate consists of:
+### Judge
+Observes the debate transcript and determines the final answer.
 
-* Debater A (argues **YES**)
-* Debater B (argues **NO**)
-* Judge agent (decides the final answer)
+The pipeline follows four phases:
 
----
+### Phase 1 — Initialization
+Both debaters independently generate an initial answer.
 
-## Debate Process
+### Phase 2 — Consensus Check
+If both debaters agree on the same answer, the debate is skipped.
 
-For every question:
+### Phase 3 — Multi-Round Debate
+Agents exchange arguments for multiple rounds.
 
-1. Debater A produces an argument supporting **YES**
-2. Debater B produces a counterargument supporting **NO**
-3. The debate runs for **multiple rounds**
-4. The judge reviews the entire transcript
-5. The judge outputs:
+### Phase 4 — Judgment
+The judge evaluates the debate transcript and outputs:
 
-Final Answer: Yes / No
-Confidence: 1–5
-Reason: short explanation
-
----
-
-## Project Structure
-
-```
-HW2_ELIF_ERCEK/
-
-api_basics.py        # LLM API interface
-debate_pipeline.py   # debate orchestration
-config.py            # hyperparameters and paths
-
-data/
-    strategyqa_100.json   # dataset
-
-prompts/
-    debater_a.txt
-    debater_b.txt
-    judge.txt
-
-logs/
-    debate_logs.json      # saved debate transcripts
-
-requirements.txt
-README.md
-```
+- Final answer
+- Confidence score
+- Short reasoning
 
 ---
 
-## Configuration
+# Dataset
 
-All important hyperparameters are stored in **config.py**.
+The experiments use the **StrategyQA dataset** (Geva et al., 2021), which contains commonsense reasoning questions requiring multi-step inference.
+
+For this assignment, a subset of:
+
+**100 questions**
+
+was used to balance evaluation quality and API cost.
+
+Dataset location:
+
+data/strategyqa_100.json
+
+
+---
+
+# Model
+
+All agents use the same LLM through the UTSA API.
+
+Model used:
+
+Qwen/Qwen3-8B
+
+
+---
+
+# Installation
+
+Clone the repository:
+
+git clone https://github.com/eyayla/HW2.git
+
+cd HW2
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+---
+
+# Configuration
+
+All hyperparameters are stored in:
+
+config.py
+
 
 Example configuration:
 
-* model name
-* temperature
-* max tokens
-* number of debate rounds
-* dataset path
-* log file path
+ROUNDS = 3
+TEMPERATURE = 0.7
+MAX_TOKENS = 256
 
-This ensures **reproducibility and clean code structure**.
+DATASET_PATH = "data/strategyqa_100.json"
+LOG_PATH = "logs/debate_logs.json"
 
----
 
-## Prompt Templates
-
-All prompts are stored in the **prompts/** directory as editable templates.
-
-Examples:
-
-* debater_a.txt
-* debater_b.txt
-* judge.txt
-
-Variables such as `{question}` and `{history}` are dynamically inserted during execution.
+This ensures that experiment settings are not hard-coded and can easily be modified.
 
 ---
 
-## Logging
+# Running the Experiments
 
-All debate transcripts are automatically saved as JSON.
+## Baseline Experiments
 
-Output file:
+Run baseline evaluations:
 
-```
-logs/debate_logs.json
-```
+python evaluate_baselines.py
 
-Each entry contains:
 
-* question
-* debate rounds
-* arguments from each debater
-* judge decision
-* ground truth answer
+This evaluates:
 
-Example log entry:
-
-```
-{
-  "question": "...",
-  "rounds": [
-    {
-      "round": 1,
-      "debater_a": "...",
-      "debater_b": "..."
-    }
-  ],
-  "judge": "...",
-  "ground_truth": "Yes"
-}
-```
-
----
-
-## Installation
-
-Install required dependencies:
-
-```
-pip install -r requirements.txt
-```
-
----
-
-## Running the Debate System
-
-To run the full experiment:
-
-```
-python debate_pipeline.py
-```
-
-The script will:
-
-* run debates for all questions
-* display debate rounds in the terminal
-* compute final accuracy
-* save debate transcripts to JSON logs
-
----
-
-## Evaluation
-
-Accuracy is computed by comparing:
-
-**Judge Final Answer vs Ground Truth**
+- Direct QA
+- Self-Consistency
 
 Example output:
 
-```
+BASELINE RESULTS
+
+Direct QA Accuracy: 0.64
+Self Consistency Accuracy: 0.63
+
+
+---
+
+## Debate System
+
+Run the full debate pipeline:
+
+python debate_pipeline.py
+
+
+Example output:
+
 FINAL RESULTS
 Questions: 100
-Correct: 69
-Accuracy: 0.69
-```
+Correct: 63
+Accuracy: 0.63
+
+
+All debate transcripts are saved to:
+logs/debate_logs.json
+
 
 ---
 
-## Reproducibility
+# Repository Structure
 
-All experiments can be reproduced by:
+HW2/
+│
+├── debate_pipeline.py
+├── evaluate_baselines.py
+├── api_basics.py
+├── config.py
+├── requirements.txt
+│
+├── data/
+│ └── strategyqa_100.json
+│
+├── prompts/
+│ ├── debater_a.txt
+│ ├── debater_b.txt
+│ └── judge.txt
+│
+├── logs/
+│ └── debate_logs.json
+│
+├── README.md
+└── REPORT.md
 
-1. Installing dependencies
-2. Running the debate pipeline
-
-```
-python debate_pipeline.py
-```
 
 ---
 
-## References
+# Logging
 
-Geva, M., Khashabi, D., Segal, E., Khot, T., Roth, D., & Berant, J. (2021).
+Each debate run records detailed logs including:
 
-*Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies.*
+- question
+- initial positions
+- arguments from each round
+- judge reasoning
+- final verdict
+- ground truth
 
-Transactions of the Association for Computational Linguistics (TACL).
+Logs are stored in:
+
+logs/debate_logs.json
+
+
+This enables qualitative analysis of debate behavior.
+
+---
+
+# Evaluation Results
+
+Three methods were compared:
+
+| Method | Accuracy |
+|------|------|
+| Direct QA | 0.64 |
+| Self Consistency | 0.63 |
+| Debate Framework | 0.63 |
+
+In this experiment, the debate framework performed similarly to self-consistency but did not outperform the direct QA baseline.
+
+---
+
+# Report
+
+The full experimental report is available in:
+
+REPORT.md
+
+
+The report includes:
+
+- methodology
+- experimental results
+- qualitative analysis
+- prompt engineering discussion
+
+---
+
+# Academic Integrity
+
+This project was completed individually for an NLP course assignment.
+
+LLM tools (such as ChatGPT) were used for **coding assistance and debugging**, but the experimental design, implementation, and written analysis were completed by the author.
+
+---
+
+# Author
+
+Elif Ercek  
+UTSA — Natural Language Processing
